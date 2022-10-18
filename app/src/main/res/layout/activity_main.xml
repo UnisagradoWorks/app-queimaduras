@@ -8,7 +8,7 @@
     tools:context=".MainActivity" >
 
     <androidx.cardview.widget.CardView
-        android:id="@+id/cardView"
+        android:id="@+id/cardPrevencoes"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
@@ -40,7 +40,7 @@
         app:cardElevation="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/cardView">
+        app:layout_constraintTop_toBottomOf="@+id/cardPrevencoes">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
@@ -217,9 +217,9 @@
         android:textAlignment="textStart"
         android:textSize="20sp"
         android:textColor="@color/default_green"
-        app:layout_constraintBottom_toBottomOf="@+id/cardView"
+        app:layout_constraintBottom_toBottomOf="@+id/cardPrevencoes"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/cardView"
-        app:layout_constraintTop_toTopOf="@+id/cardView" />
+        app:layout_constraintStart_toEndOf="@+id/cardPrevencoes"
+        app:layout_constraintTop_toTopOf="@+id/cardPrevencoes" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
