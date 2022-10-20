@@ -9,6 +9,7 @@ import android.view.View;
 
 public class HistoriasActivity extends AppCompatActivity {
 
+    public static final String HISTORIA = "HistoriasActivity.AGENTES";
     public static final String AGENTES = "HistoriasActivity.AGENTES";
     public static final String GRAUS = "HistoriasActivity.GRAUS";
     public static final String PREVENCOES = "HistoriasActivity.PREVENCOES";
@@ -31,19 +32,26 @@ public class HistoriasActivity extends AppCompatActivity {
     }
 
     private void abrirHistoriaAgentes(View view) {
-        //Intent intent = new Intent(this, null);
-        System.out.println(AGENTES);
+        Intent intent = new Intent(this, HistoriaInfoActivity.class);
+        intent.putExtra(HISTORIA, AGENTES);
+        startActivity(intent);
     }
 
     private void abrirHistoriaGraus(View view) {
-        System.out.println(GRAUS);
+        Intent intent = new Intent(this, HistoriaInfoActivity.class);
+        intent.putExtra(HISTORIA, GRAUS);
+        startActivity(intent);
     }
 
     private void abrirHistoriaPrevencoes(View view) {
-        System.out.println(PREVENCOES);
+        Intent intent = new Intent(this, HistoriaInfoActivity.class);
+        intent.putExtra(HISTORIA, PREVENCOES);
+        startActivity(intent);
     }
 
     private void abrirHistoriaSocorros(View view) {
-        System.out.println(SOCORROS);
+        Intent intent = new Intent(this, HistoriaInfoActivity.class);
+        intent.putExtra(HISTORIA, SOCORROS);
+        startActivity(intent);
     }
 }

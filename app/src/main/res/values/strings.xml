@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">App Queimaduras</string>
+
+    <string-array name="titulos_historias">
+        <item></item>
+    </string-array>
 </resources>
