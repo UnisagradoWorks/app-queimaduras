@@ -11,7 +11,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="20dp"
         app:cardCornerRadius="80dp"
         app:cardElevation="0dp"
         app:layout_constraintStart_toStartOf="parent"
@@ -34,7 +34,7 @@
         android:layout_width="0dp"
         android:layout_height="120dp"
         android:layout_marginStart="50dp"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="20dp"
         android:layout_marginEnd="50dp"
         app:cardCornerRadius="20dp"
         app:cardElevation="10dp"
@@ -52,8 +52,8 @@
                 android:id="@+id/textView4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="8dp"
-                android:layout_marginBottom="4dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginBottom="10dp"
                 android:fontFamily="@font/poppins_bold"
                 android:text="@string/colaboradores"
                 android:textColor="#FFF"
@@ -65,30 +65,25 @@
                 android:id="@+id/textView5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="2dp"
-                android:layout_marginTop="53dp"
-                android:layout_marginBottom="4dp"
+                android:layout_marginBottom="2dp"
                 android:fontFamily="@font/poppins"
                 android:text="@string/desenvolvimento"
                 android:textColor="#FFF"
                 android:textSize="16sp"
                 app:layout_constraintBottom_toTopOf="@+id/textView4"
-                app:layout_constraintStart_toStartOf="@+id/textView4"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.0" />
+                app:layout_constraintStart_toStartOf="@+id/textView4" />
 
             <ImageView
                 android:id="@+id/imageView2"
-                android:layout_width="115dp"
-                android:layout_height="115dp"
-                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_marginBottom="-10dp"
                 android:adjustViewBounds="true"
                 android:contentDescription="@string/bombeirinho"
                 android:cropToPadding="false"
                 android:scaleType="centerCrop"
                 app:layout_constraintBottom_toBottomOf="@+id/textView4"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
                 app:srcCompat="@drawable/bombeiro_mangueira_1" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
@@ -115,10 +110,10 @@
 
             <TextView
                 android:id="@+id/textView2"
-                android:layout_width="141dp"
-                android:layout_height="28dp"
-                android:layout_marginEnd="2dp"
-                android:layout_marginBottom="4dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
                 android:fontFamily="@font/poppins_bold"
                 android:text="@string/referencias"
                 android:textColor="#FFF"
@@ -130,31 +125,26 @@
                 android:id="@+id/textView3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="58dp"
-                android:layout_marginEnd="4dp"
-                android:layout_marginBottom="4dp"
+                android:layout_marginBottom="2dp"
                 android:fontFamily="@font/poppins"
                 android:text="@string/informacoes"
                 android:textColor="#FFF"
                 android:textSize="16sp"
                 app:layout_constraintBottom_toTopOf="@+id/textView2"
-                app:layout_constraintEnd_toEndOf="@+id/textView2"
-                app:layout_constraintTop_toTopOf="parent" />
+                app:layout_constraintEnd_toEndOf="@+id/textView2" />
 
             <ImageView
                 android:id="@+id/imageView3"
-                android:layout_width="143dp"
-                android:layout_height="120dp"
-                android:layout_marginEnd="66dp"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
                 android:layout_marginBottom="-10dp"
                 android:adjustViewBounds="true"
+                android:contentDescription="@string/bombeirinho"
                 android:cropToPadding="false"
                 android:scaleType="centerCrop"
                 app:layout_constraintBottom_toBottomOf="@+id/textView2"
-                app:layout_constraintEnd_toStartOf="@+id/textView2"
                 app:layout_constraintStart_toStartOf="parent"
-                app:srcCompat="@drawable/bombeiro_escadinha_1"
-                android:contentDescription="@string/bombeirinho" />
+                app:srcCompat="@drawable/bombeiro_escadinha_1" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.cardview.widget.CardView>
@@ -182,8 +172,8 @@
                 android:id="@+id/textView7"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="8dp"
-                android:layout_marginBottom="4dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginBottom="10dp"
                 android:fontFamily="@font/poppins_bold"
                 android:text="@string/unisagrado"
                 android:textColor="#FFF"
@@ -195,23 +185,18 @@
                 android:id="@+id/textView8"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="8dp"
-                android:layout_marginTop="53dp"
-                android:layout_marginBottom="4dp"
+                android:layout_marginBottom="2dp"
                 android:fontFamily="@font/poppins"
                 android:text="@string/apoio"
                 android:textColor="#FFF"
                 android:textSize="16sp"
                 app:layout_constraintBottom_toTopOf="@+id/textView7"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+                app:layout_constraintStart_toStartOf="@+id/textView7" />
 
             <ImageView
                 android:id="@+id/imageView4"
-                android:layout_width="136dp"
-                android:layout_height="117dp"
-                android:layout_marginStart="47dp"
-                android:layout_marginTop="2dp"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
                 android:layout_marginBottom="1dp"
                 android:adjustViewBounds="true"
                 android:contentDescription="@string/bombeirinho"
@@ -219,8 +204,6 @@
                 android:scaleType="centerCrop"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toEndOf="@+id/textView7"
-                app:layout_constraintTop_toTopOf="parent"
                 app:srcCompat="@drawable/bombeiro_machadinha_1" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
@@ -230,8 +213,7 @@
         android:id="@+id/textView6"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
-        android:layout_marginEnd="20dp"
+        android:layout_marginStart="10dp"
         android:fontFamily="@font/poppins_bold"
         android:text="@string/textoApresentacao"
         android:textAlignment="textStart"
@@ -239,37 +221,31 @@
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="@+id/cardIcon"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/cardIcon" />
+        app:layout_constraintStart_toEndOf="@+id/cardIcon"
+        app:layout_constraintTop_toTopOf="@+id/cardIcon" />
 
     <ImageView
         android:id="@+id/home"
         android:layout_width="wrap_content"
-        android:layout_height="50dp"
-        android:layout_marginTop="70dp"
+        android:layout_height="30dp"
         android:layout_marginBottom="32dp"
         android:adjustViewBounds="true"
         android:contentDescription="@string/home"
         android:scaleType="centerCrop"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/cardApoio"
-        app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@drawable/home" />
 
     <TextView
         android:id="@+id/textView14"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="162dp"
-        android:layout_marginEnd="162dp"
-        android:layout_marginBottom="8dp"
         android:fontFamily="@font/poppins_bold"
         android:text="Menu Inicial"
-        android:textColor="#E76753"
-        android:textSize="14sp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:textColor="@color/default_red"
+        android:textSize="12sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/home" />

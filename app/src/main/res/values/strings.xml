@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">App Queimaduras</string>
-    <string name="textoApresentacao">Obrigado por chegar até aqui! Conheça os colaboradores para que esse projeto fosse desenvolvido.</string>
+    <string name="textoApresentacao">Obrigado por chegar até aqui!\n Conheça os colaboradores desse projeto.</string>
     <string name="apoio">apoio</string>
     <string name="unisagrado">UNISAGRADO</string>
     <string name="referencias">REFERÊNCIAS</string>
