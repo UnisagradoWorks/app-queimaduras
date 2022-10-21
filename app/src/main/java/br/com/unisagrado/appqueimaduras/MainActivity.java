@@ -19,11 +19,16 @@ public class MainActivity extends AppCompatActivity {
         CardView cardCreditos = findViewById(R.id.cardCreditos);
 
         cardHistorias.setOnClickListener(this::abrirHistorias);
-
+        cardCreditos.setOnClickListener(this::abrirCreditos);
     }
 
     private void abrirHistorias(View view){
         Intent intent = new Intent(this, HistoriasActivity.class);
+        startActivity(intent);
+    }
+
+    private void abrirCreditos(View view) {
+        Intent intent = new Intent(this, CreditosActivity.class);
         startActivity(intent);
     }
 }
