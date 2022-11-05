@@ -19,7 +19,7 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <ImageView
-            android:id="@+id/imageView5"
+            android:id="@+id/bombeirinho_machadinho"
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:adjustViewBounds="true"
