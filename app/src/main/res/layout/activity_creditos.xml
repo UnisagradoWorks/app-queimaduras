@@ -29,51 +29,62 @@
             app:srcCompat="@drawable/bombeiro_machadinha_1" />
     </androidx.cardview.widget.CardView>
 
-    <androidx.cardview.widget.CardView
-        android:id="@+id/cardDesenvolvimento"
-        android:layout_width="162dp"
-        android:layout_height="132dp"
-        android:layout_marginStart="40dp"
-        android:layout_marginTop="108dp"
-
-
-        android:layout_marginEnd="20dp"
-        app:cardCornerRadius="20dp"
-        app:cardElevation="10dp"
-        app:layout_constraintBottom_toTopOf="@+id/cardApoio"
-        app:layout_constraintEnd_toStartOf="@+id/cardInformacoes"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/cardIcon" />
-
-    <androidx.cardview.widget.CardView
-        android:id="@+id/cardApoio"
-        android:layout_width="165dp"
-        android:layout_height="132dp"
-        android:layout_marginTop="41dp"
-        android:layout_marginEnd="94dp"
-        android:layout_marginBottom="76dp"
-        app:cardCornerRadius="20dp"
-        app:cardElevation="10dp"
-        app:layout_constraintBottom_toTopOf="@+id/home"
-        app:layout_constraintEnd_toEndOf="@+id/cardInformacoes"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="@+id/cardDesenvolvimento"
-        app:layout_constraintTop_toBottomOf="@+id/cardDesenvolvimento" />
-
-    <androidx.cardview.widget.CardView
-        android:id="@+id/cardInformacoes"
-        android:layout_width="165dp"
-        android:layout_height="132dp"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="108dp"
+    <ImageView
+        android:id="@+id/referencias2"
+        android:layout_width="149dp"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="70dp"
         android:layout_marginEnd="40dp"
-        android:layout_marginBottom="41dp"
-        app:cardCornerRadius="20dp"
-        app:cardElevation="10dp"
-        app:layout_constraintBottom_toTopOf="@+id/cardApoio"
+        android:layout_marginBottom="30dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/botaoReferencias"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/instituicao"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/cardDesenvolvimento"
-        app:layout_constraintTop_toBottomOf="@+id/cardIcon" />
+        app:layout_constraintStart_toEndOf="@+id/desenvolvedores"
+        app:layout_constraintTop_toBottomOf="@+id/textView6"
+        app:srcCompat="@drawable/referencias"
+        tools:ignore="ImageContrastCheck"
+        tools:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/desenvolvedores"
+        android:layout_width="149dp"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="30dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/botaoReferencias"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/instituicao"
+        app:layout_constraintEnd_toStartOf="@+id/referencias2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardIcon"
+        app:srcCompat="@drawable/desenvolvedores"
+        tools:ignore="ImageContrastCheck"
+        tools:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/instituicao"
+        android:layout_width="149dp"
+        android:layout_height="183dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="124dp"
+        android:layout_marginEnd="124dp"
+        android:layout_marginBottom="44dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/botaoInstituicaoEnsino"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/home"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/instituicao_ensino"
+        tools:visibility="visible" />
 
     <TextView
         android:id="@+id/textView6"
@@ -87,7 +98,7 @@
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="@+id/cardIcon"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.515"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/cardIcon"
         app:layout_constraintTop_toTopOf="@+id/cardIcon"
         app:layout_constraintVertical_bias="1.0" />
@@ -95,7 +106,7 @@
     <ImageView
         android:id="@+id/home"
         android:layout_width="137dp"
-        android:layout_height="80dp"
+        android:layout_height="0dp"
         android:layout_marginBottom="32dp"
         android:adjustViewBounds="true"
         android:contentDescription="@string/home"
@@ -104,6 +115,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/menu_inicial_verde" />
+        app:srcCompat="@drawable/menu_inicial_verde"
+        tools:ignore="ImageContrastCheck" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

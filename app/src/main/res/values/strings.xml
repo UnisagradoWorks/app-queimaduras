@@ -10,6 +10,9 @@
     <string name="bombeirinho">bombeirinho</string>
     <string name="informacoes">informações</string>
     <string name="home">home</string>
+    <string name="botaodesenvolvedores">botaoDesenvolvedores</string>
+    <string name="botaoReferencias" />
+    <string name="botaoInstituicaoEnsino" />
 
     <string-array name="titulos_historias">
         <item></item>
