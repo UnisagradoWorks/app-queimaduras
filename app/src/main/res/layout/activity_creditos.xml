@@ -91,7 +91,7 @@
         android:layout_width="242dp"
         android:layout_height="118dp"
         android:layout_marginStart="10dp"
-        android:fontFamily="@font/poppins_thin"
+        android:fontFamily="@font/poppins"
         android:text="@string/textoApresentacao"
         android:textAlignment="textStart"
         android:textColor="@color/black"
