@@ -2,6 +2,7 @@
 <resources>
     <color name="default_green">#3FC979</color>
     <color name="light_green">#8ABDFFD9</color>
+    <color name="light_green2">#ADF6CC</color>
     <color name="default_red">#E96854</color>
     <color name="light_red">#D9D9D9</color>
     <color name="default_blue">#3590C4</color>

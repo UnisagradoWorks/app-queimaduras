@@ -51,7 +51,9 @@ public class HistoriaInfoActivity extends AppCompatActivity {
                 atualizarPagina();
                 break;
             case HistoriasActivity.GRAUS:
-                txtTituloHistoria.setText("GRAUS");
+                txtTituloHistoria.setText("GRAUS DE QUEIMADURA");
+                historia = historiaService.findHistoriaGraus();
+                atualizarPagina();
                 break;
             case HistoriasActivity.PREVENCOES:
                 txtTituloHistoria.setText("PREVENCOES");

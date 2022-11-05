@@ -17,9 +17,45 @@ public class HistoriaService {
         historia.add("o agente causador do tipo físico é UM dos que vamos conhecer hoje! ele é " +
                 "classificado em três etapas: temperatura, eletricidade e radiação. " +
                 "Alguns exemplos de queimadura por: \n" +
-                "\n\t-temperatura: vapor, objetos aquecidos, água quente, fogos de artifícios, frio. \n" +
+                "\t-temperatura: vapor, objetos aquecidos, água quente, fogos de artifícios, frio. \n" +
                 "\t-eletricidade: corrente elétrica, raio.\n" +
                 "\t-radiação: sol, aparelhos de raios X, raios ultra-violetas, nucleares.");
+        historia.add("Outro tipo de agente causador é o químico. É possível reconhecer esse tipo " +
+                "de queimadura quando se tem contato com produtos químicos como por exemplo: " +
+                "ácidos, bases, álcool, gasolina.\n" +
+                "\n" +
+                "É importante tomar muito cuidado ao ter contato com algum " +
+                "desses produtos! Fique atento.\n");
+        historia.add("O tipo de queimadura biológico é causado por seres vivos! " +
+                "Alguns animais que podem te machucar caso você não esteja atento é a " +
+                "água-viva, ou até mesmo uma lagarta-de-fogo, conhecida como taturana. \n" +
+                "Já nos vegetais é possível ser queimado pelo o látex de certas plantas.");
+        return historia;
+    }
+
+    public List<String> findHistoriaGraus(){
+        List<String> historia = new ArrayList<>();
+
+        historia.add("O que vai influenciar na gravidade do ferimento é a profundidade da " +
+                "queimadura, ou seja, o número de camadas da pele ou outras estruturas " +
+                "abaixo da pele, que foram atingidos. O processo de reparação " +
+                "tecidual do queimado dependerá de vários fatores, entre eles a " +
+                "profundidade da lesão. A queimadura também afeta o sistema " +
+                "imunológico da vítima, com consequências " +
+                "sobre o quadro clínico geral do paciente.");
+        historia.add("O primeiro grau consiste em uma queimadura na superfície da pele.\n" +
+                "Afeta somente a epiderme e não forma bolhas. \n" +
+                "Quando atingido, apresenta vermelhidão, dor, endema e descama de 4 a 6 dias.");
+        historia.add("Já no segundo grau, atinge a pele de uma forma um pouco mais profunda. " +
+                "Atinge a epiderme e uma parte da derme, causando bolhas. Se for uma queimadura " +
+                "mais superficial, a base da bolha é rósea, caso seja mais profunda, a " +
+                "base da bolha é branca! \n" +
+                "A restauração das lesões ocorrem de 7 a 21 dias.");
+        historia.add("O terceiro e último grau, é o tipo de queimadura mais profunda. " +
+                "Atinge a espessura total da pele e não é possível reepitalizar e necessita " +
+                "de enxerto na pele. \n" +
+                "Afeta a epiderme, a derme, estruturas profundas da pele e é indolor.");
+
         return historia;
     }
 }
