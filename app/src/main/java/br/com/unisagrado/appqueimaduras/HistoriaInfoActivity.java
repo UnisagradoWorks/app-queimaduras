@@ -44,7 +44,7 @@ public class HistoriaInfoActivity extends AppCompatActivity {
         setaDir.setVisibility(View.INVISIBLE);
         setaDir.setClickable(false);
 
-        switch (getIntent().getStringExtra(HistoriasActivity.HISTORIA)) {
+        switch (getIntent().getStringExtra(HistoriasActivity.HISTORIA_SELECIONADA)) {
             case HistoriasActivity.AGENTES:
                 txtTituloHistoria.setText("AGENTES CAUSADORES");
                 historia = historiaService.findHistoriaAgente();

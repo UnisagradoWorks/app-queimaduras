@@ -6,6 +6,17 @@
     android:layout_height="match_parent"
     tools:context=".HistoriaInfoActivity">
 
+    <ImageView
+        android:id="@+id/imgHome2"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_marginBottom="10dp"
+        android:adjustViewBounds="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/menu_inicial_verde" />
+
     <TextView
         android:id="@+id/txtTituloHist"
         android:layout_width="0dp"
@@ -99,12 +110,11 @@
         android:layout_height="0dp"
         android:layout_marginStart="60dp"
         android:layout_marginEnd="60dp"
-        android:layout_marginBottom="10dp"
         android:adjustViewBounds="true"
         android:scaleType="fitCenter"
         android:scaleX="1.35"
         android:scaleY="1.35"
-        app:layout_constraintBottom_toTopOf="@+id/seta_esq"
+        app:layout_constraintBottom_toTopOf="@+id/imgHome2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/cardView3"
@@ -114,25 +124,24 @@
         android:id="@+id/seta_esq"
         android:layout_width="wrap_content"
         android:layout_height="50dp"
-        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="10dp"
         android:adjustViewBounds="true"
         android:scaleType="centerCrop"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.4"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="@+id/imgHome2"
+        app:layout_constraintEnd_toStartOf="@+id/imgHome2"
+        app:layout_constraintTop_toTopOf="@+id/imgHome2"
         app:srcCompat="@drawable/seta_esquerda" />
 
     <ImageView
         android:id="@+id/seta_dir"
         android:layout_width="wrap_content"
         android:layout_height="50dp"
+        android:layout_marginStart="10dp"
         android:adjustViewBounds="true"
         android:scaleType="centerCrop"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.6"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/seta_esq"
+        app:layout_constraintBottom_toBottomOf="@+id/imgHome2"
+        app:layout_constraintStart_toEndOf="@+id/imgHome2"
+        app:layout_constraintTop_toTopOf="@+id/imgHome2"
         app:srcCompat="@drawable/seta_direita" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
