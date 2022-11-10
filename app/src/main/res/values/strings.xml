@@ -1,7 +1,10 @@
 <resources>
     <string name="app_name">App Queimaduras</string>
-<!--    <string name="textoApresentacao">Obrigado por chegar até aqui!\nConheça os colaboradores desse projeto.</string>-->
-    <string name="textoApresentacao"> Aqui estão os <b> colaboradores </b> para que esse aplicativo fosse\ndesenvolvido.</string>
+    <!--    <string name="textoApresentacao">Obrigado por chegar até aqui!\nConheça os colaboradores desse projeto.</string>-->
+    <string name="textoApresentacao"> Aqui estão os <b> colaboradores </b> para que esse aplicativo fosse desenvolvido.</string>
+    <string name="telaDevs">Aqui estão os <b>desenvolvedores</b></string>
+    <string name="computacao"><b>Ciência da Computação</b></string>
+    <string name="biomedicina"><b>Biomedicina</b></string>
     <string name="apoio">apoio</string>
     <string name="unisagrado">UNISAGRADO</string>
     <string name="referencias">REFERÊNCIAS</string>
@@ -17,4 +20,19 @@
     <string-array name="titulos_historias">
         <item></item>
     </string-array>
+    <string name="title_activity_desenvolvedores">activity_desenvolvedores</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="felipe_n_gabriel">Felipe \n Gabriel</string>
+    <string name="jessica">Jéssica Celestino</string>
+    <string name="marianaFernandes">Mariana \n Fernandes</string>
+    <string name="viniciusBueno">Vinicius \n Bueno</string>
+    <string name="pauloCesar">Paulo \n César</string>
+    <string name="marcosRangel">Marcos \n Rangel</string>
 </resources>

@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:foregroundGravity="center_vertical|center"
+    tools:context=".CreditosActivity">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardIcon"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        app:cardCornerRadius="80dp"
+        app:cardElevation="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/bombeirinho_escadinha"
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:layout_gravity="top"
+            android:adjustViewBounds="true"
+            android:background="#00BDFFD9"
+            android:contentDescription="@string/bombeirinho"
+            android:cropToPadding="false"
+            android:foregroundGravity="top"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/bombeiro_escadinha_1" />
+    </androidx.cardview.widget.CardView>
+
+    <ImageView
+        android:id="@+id/felipe"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/botaoReferencias"
+        android:cropToPadding="false"
+        android:visibility="visible"
+        app:layout_constraintEnd_toStartOf="@+id/jessica"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/jessica"
+        app:srcCompat="@drawable/github_icon"
+        tools:ignore="ImageContrastCheck"
+        tools:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/jessica"
+        android:layout_width="wrap_content"
+        android:layout_height="83.65dp"
+        android:layout_gravity="center|center_horizontal"
+        android:layout_marginTop="15dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/botaoReferencias"
+        android:cropToPadding="false"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/computacao"
+        app:srcCompat="@drawable/github_icon"
+        tools:ignore="ImageContrastCheck"
+        tools:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/mariana"
+        android:layout_width="wrap_content"
+        android:layout_height="83.65dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/botaoReferencias"
+        android:cropToPadding="false"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/jessica"
+        app:layout_constraintTop_toTopOf="@+id/jessica"
+        app:srcCompat="@drawable/github_icon"
+        tools:ignore="ImageContrastCheck"
+        tools:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/paulo"
+        android:layout_width="wrap_content"
+        android:layout_height="83.65dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/botaoReferencias"
+        android:cropToPadding="false"
+        android:visibility="visible"
+        app:layout_constraintEnd_toStartOf="@+id/textView13"
+        app:layout_constraintStart_toEndOf="@+id/textView11"
+        app:layout_constraintTop_toTopOf="@+id/bueno"
+        app:srcCompat="@drawable/github_icon"
+        tools:ignore="MissingConstraints"
+        tools:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/bueno"
+        android:layout_width="wrap_content"
+        android:layout_height="83.65dp"
+        android:layout_marginTop="10dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/botaoReferencias"
+        android:cropToPadding="false"
+        android:visibility="visible"
+        app:layout_constraintEnd_toStartOf="@+id/textView14"
+        app:layout_constraintStart_toEndOf="@+id/textView13"
+        app:layout_constraintTop_toBottomOf="@+id/textView14"
+        app:srcCompat="@drawable/github_icon"
+        tools:ignore="MissingConstraints"
+        tools:visibility="visible" />
+
+
+    <ImageView
+        android:id="@+id/marcos"
+        android:layout_width="wrap_content"
+        android:layout_height="83.65dp"
+        android:layout_marginTop="15dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/botaoReferencias"
+        android:cropToPadding="false"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="@+id/biomedicina"
+        app:layout_constraintStart_toStartOf="@+id/biomedicina"
+        app:layout_constraintTop_toBottomOf="@+id/biomedicina"
+        app:srcCompat="@drawable/linkedin"
+        tools:ignore="MissingConstraints"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="20dp"
+        android:fontFamily="@font/poppins"
+        android:foregroundGravity="top"
+        android:text="@string/telaDevs"
+        android:textAlignment="textStart"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/cardIcon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/cardIcon"
+        app:layout_constraintTop_toTopOf="@+id/cardIcon"
+        app:layout_constraintVertical_bias="0.415" />
+
+    <TextView
+        android:id="@+id/computacao"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="57dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="57dp"
+        android:fontFamily="@font/poppins"
+        android:foregroundGravity="center_vertical|center"
+        android:text="@string/computacao"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardIcon" />
+
+    <TextView
+        android:id="@+id/biomedicina"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/poppins"
+        android:foregroundGravity="center_vertical|center"
+        android:text="@string/biomedicina"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/textView15"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/textView16"
+        app:layout_constraintTop_toBottomOf="@+id/textView16" />
+
+    <ImageView
+        android:id="@+id/home"
+        android:layout_width="wrap_content"
+        android:layout_height="070dp"
+        android:layout_marginBottom="10dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/home"
+        android:foregroundGravity="bottom"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/menu_verde"
+        tools:ignore="ImageContrastCheck" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="20dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/felipe_n_gabriel"
+        android:textAlignment="center"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/felipe"
+        app:layout_constraintStart_toStartOf="@+id/felipe"
+        app:layout_constraintTop_toBottomOf="@+id/felipe" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/jessica"
+        android:textAlignment="center"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/jessica"
+        app:layout_constraintStart_toStartOf="@+id/jessica"
+        app:layout_constraintTop_toBottomOf="@+id/jessica" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/marianaFernandes"
+        android:textAlignment="center"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/mariana"
+        app:layout_constraintStart_toStartOf="@+id/mariana"
+        app:layout_constraintTop_toBottomOf="@+id/mariana" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/viniciusBueno"
+        android:textAlignment="center"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/bueno"
+        app:layout_constraintStart_toStartOf="@+id/bueno"
+        app:layout_constraintTop_toBottomOf="@+id/bueno" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/pauloCesar"
+        android:textAlignment="center"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/paulo"
+        app:layout_constraintStart_toStartOf="@+id/paulo"
+        app:layout_constraintTop_toBottomOf="@+id/paulo" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/marcosRangel"
+        app:layout_constraintEnd_toEndOf="@+id/marcos"
+        app:layout_constraintStart_toStartOf="@+id/marcos"
+        app:layout_constraintTop_toBottomOf="@+id/marcos" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

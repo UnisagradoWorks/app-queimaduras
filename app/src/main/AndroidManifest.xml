@@ -10,9 +10,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppQueimaduras">
         <activity
+            android:name=".DesenvolvedoresActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".CreditosActivity"
             android:exported="false"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".HistoriaInfoActivity"
             android:exported="false"
