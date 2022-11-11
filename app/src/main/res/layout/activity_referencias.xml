@@ -67,7 +67,7 @@
                     android:id="@+id/home"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="50dp"
+                    android:layout_marginTop="120dp"
                     android:adjustViewBounds="true"
                     android:contentDescription="@string/home"
                     android:foregroundGravity="bottom"
@@ -75,20 +75,21 @@
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/referencia6"
+                    app:layout_constraintTop_toBottomOf="@+id/txtReferencia4"
                     app:srcCompat="@drawable/menu_verde"
                     tools:ignore="ImageContrastCheck" />
 
-                <ImageView
+                <ImageButton
                     android:id="@+id/referencia1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="80dp"
+                    android:layout_marginTop="150dp"
+                    android:background="#00FFFFFF"
+                    android:contentDescription="@string/referencias"
                     android:src="@drawable/retangulo_referencias"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/referencias"
-                    android:contentDescription="@string/referencias" />
+                    app:layout_constraintTop_toBottomOf="@+id/referencias" />
 
                 <TextView
                     android:id="@+id/txtReferencia1"
@@ -103,17 +104,18 @@
                     app:layout_constraintStart_toStartOf="@+id/referencia1"
                     app:layout_constraintTop_toTopOf="@+id/referencia1" />
 
-                <ImageView
+                <ImageButton
                     android:id="@+id/referencia2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
+                    android:background="#00FFFFFF"
+                    android:contentDescription="@string/referencias"
                     android:src="@drawable/retangulo_referencias"
                     app:layout_constraintEnd_toEndOf="@+id/referencia1"
                     app:layout_constraintHorizontal_bias="0.0"
                     app:layout_constraintStart_toStartOf="@+id/referencia1"
-                    app:layout_constraintTop_toBottomOf="@+id/referencia1"
-                    android:contentDescription="@string/referencias" />
+                    app:layout_constraintTop_toBottomOf="@+id/referencia1" />
 
                 <TextView
                     android:id="@+id/txtReferencia2"
@@ -128,11 +130,12 @@
                     app:layout_constraintStart_toStartOf="@+id/referencia2"
                     app:layout_constraintTop_toTopOf="@+id/referencia2" />
 
-                <ImageView
+                <ImageButton
                     android:id="@+id/referencia3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
+                    android:background="#00FFFFFF"
                     android:src="@drawable/retangulo_referencias"
                     app:layout_constraintEnd_toEndOf="@+id/referencia2"
                     app:layout_constraintStart_toStartOf="@+id/referencia2"
@@ -152,11 +155,12 @@
                     app:layout_constraintStart_toStartOf="@+id/referencia3"
                     app:layout_constraintTop_toTopOf="@+id/referencia3" />
 
-                <ImageView
+                <ImageButton
                     android:id="@+id/referencia4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
+                    android:background="#00FFFFFF"
                     android:src="@drawable/retangulo_referencias"
                     app:layout_constraintEnd_toEndOf="@+id/referencia3"
                     app:layout_constraintStart_toStartOf="@+id/referencia3"
@@ -175,55 +179,6 @@
                     app:layout_constraintEnd_toEndOf="@+id/referencia4"
                     app:layout_constraintStart_toStartOf="@+id/referencia4"
                     app:layout_constraintTop_toTopOf="@+id/referencia4" />
-
-                <ImageView
-                    android:id="@+id/referencia5"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="20dp"
-                    android:src="@drawable/retangulo_referencias"
-                    app:layout_constraintEnd_toEndOf="@+id/referencia4"
-                    app:layout_constraintStart_toStartOf="@+id/referencia4"
-                    app:layout_constraintTop_toBottomOf="@+id/referencia4"
-                    android:contentDescription="@string/referencias" />
-
-                <TextView
-                    android:id="@+id/txtReferencia5"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/istockphoto"
-                    android:textAlignment="center"
-                    android:textColor="@color/default_red"
-                    android:textSize="20sp"
-                    app:layout_constraintBottom_toBottomOf="@+id/referencia5"
-                    app:layout_constraintEnd_toEndOf="@+id/referencia5"
-                    app:layout_constraintStart_toStartOf="@+id/referencia5"
-                    app:layout_constraintTop_toTopOf="@+id/referencia5" />
-
-                <ImageView
-                    android:id="@+id/referencia6"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="20dp"
-                    android:src="@drawable/retangulo_referencias"
-                    app:layout_constraintEnd_toEndOf="@+id/referencia5"
-                    app:layout_constraintStart_toStartOf="@+id/referencia5"
-                    app:layout_constraintTop_toBottomOf="@+id/referencia5"
-                    android:contentDescription="@string/referencias" />
-
-                <TextView
-                    android:id="@+id/txtReferencia6"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/istockphoto"
-                    android:textAlignment="center"
-                    android:textColor="@color/default_red"
-                    android:textSize="20sp"
-                    app:layout_constraintBottom_toBottomOf="@+id/referencia6"
-                    app:layout_constraintEnd_toEndOf="@+id/referencia6"
-                    app:layout_constraintStart_toStartOf="@+id/referencia6"
-                    app:layout_constraintTop_toTopOf="@+id/referencia6" />
-
 
 
             </androidx.constraintlayout.widget.ConstraintLayout>

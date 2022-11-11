@@ -116,7 +116,7 @@
                     android:layout_marginTop="30dp"
                     android:fontFamily="@font/poppins"
                     android:foregroundGravity="top"
-                    android:text="@string/telaInstituicao"
+                    android:text="@string/app_name"
                     android:textAlignment="textStart"
                     android:textColor="@color/default_green"
                     android:textSize="24sp"

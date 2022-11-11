@@ -1,5 +1,6 @@
 <resources>
-    <string name="app_name"><b>Kids</b>burn</string>
+    <!--  GERAL -->
+    <string name="app_name"><b>KIDS</b>burn</string>
 
     <!-- CREDITOS-->
     <string name="textoApresentacao"> Aqui estão os <b> colaboradores </b> para que esse aplicativo fosse desenvolvido.</string>
@@ -24,7 +25,6 @@
 
     <!-- TELA DE INSTITUICAO-->
     <string name="projetoExtencionista"><b>Projeto \n Extencionista </b></string>
-    <string name="telaInstituicao"><b>KIDS</b>burn</string>
     <string name="professor"><b>Professor</b></string>
 
     <!-- TELA DE REFERENCIAS-->
@@ -34,6 +34,8 @@
     <string name="msdmanuals"><b>MSD Manuals</b></string>
     <string name="einstein"><b>Einstein</b></string>
 
+    <!-- TELA SPLASH-->
+    <string name="textoSplash">Uma maneira mais fácil \n de aprender sobre queimaduras</string>
 
 
 </resources>
