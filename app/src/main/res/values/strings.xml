@@ -4,7 +4,10 @@
     <string name="textoApresentacao"> Aqui estão os <b> colaboradores </b> para que esse aplicativo fosse desenvolvido.</string>
     <string name="telaDevs">Aqui estão os <b>desenvolvedores</b></string>
     <string name="computacao"><b>Ciência da Computação</b></string>
+    <string name="projetoExtencionista"><b>Projeto \n Extencionista </b></string>
+    <string name="telaInstituicao"><b>KIDS</b>burn</string>
     <string name="biomedicina"><b>Biomedicina</b></string>
+    <string name="professor"><b>Professor</b></string>
     <string name="apoio">apoio</string>
     <string name="unisagrado">UNISAGRADO</string>
     <string name="referencias">REFERÊNCIAS</string>
@@ -32,7 +35,9 @@
     <string name="felipe_n_gabriel">Felipe \n Gabriel</string>
     <string name="jessica">Jéssica Celestino</string>
     <string name="marianaFernandes">Mariana \n Fernandes</string>
-    <string name="viniciusBueno">Vinicius \n Bueno</string>
+    <string name="viniciusBueno">Vinicius c Bueno</string>
     <string name="pauloCesar">Paulo \nCésar</string>
     <string name="marcosRangel">Marcos \n Rangel</string>
+    <string name="elvioGilberto">Prof. Dr. Elvio Gilberto da Silva</string>
+
 </resources>
