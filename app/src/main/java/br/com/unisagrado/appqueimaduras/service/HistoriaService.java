@@ -5,7 +5,7 @@ import java.util.List;
 
 public class HistoriaService {
 
-    public List<String> findHistoriaAgente(){
+    public List<String> findHistoriaAgente() {
         List<String> historia = new ArrayList<>();
 
         historia.add("As queimaduras são um importante problema de saúde pública, " +
@@ -33,7 +33,7 @@ public class HistoriaService {
         return historia;
     }
 
-    public List<String> findHistoriaGraus(){
+    public List<String> findHistoriaGraus() {
         List<String> historia = new ArrayList<>();
 
         historia.add("O que vai influenciar na gravidade do ferimento é a profundidade da " +
@@ -57,5 +57,45 @@ public class HistoriaService {
                 "Afeta a epiderme, a derme, estruturas profundas da pele e é indolor.");
 
         return historia;
+    }
+
+    public List<String> findHistoriaPrevencao() {
+        List<String> prevencao = new ArrayList<>();
+
+        prevencao.add("Infelizmente, acidentes podem acontecer em qualquer idade, " +
+                "mas as crianças são sempre mais vulneráveis. As crianças são ainda " +
+                "as mais afetadas, sendo as queimaduras a quarta causa de internação " +
+                "por sequelas gravíssimas entre 5 e 9 anos, segundo o Ministério da Saúde.");
+        prevencao.add("Quando esses acidentes acontecem, ausam danos muitas vezes irreparáveis," +
+                " prejudicam seu desenvolvimento intelectual, coordenação motora e " +
+                "desfiguram sua aparência. O que interfere na vida social e escolar," +
+                " sem falar em toda a dor e sofrimento, só pode ser compreendido por " +
+                "quem fica com as consequências.\n");
+        prevencao.add("A Organização Mundial da Saúde (OMS) revelou que 320.000 crianças morrem" +
+                " todos os anos pelas mesmas causas. Por isso, pequenos cuidados são importantes" +
+                " para salvar vidas. Temos alguns exemplos como: \n" +
+                "• Mantenha as crianças fora da cozinha enquanto cozinhamos.\n" +
+                "• Fósforos e isqueiros devem ser mantidos longe das crianças.\n" +
+                "• Sempre tente educar e educar as crianças sobre os perigos das queimaduras.");
+        prevencao.add("Além de outras situações comuns que todos nós encontramos:\n" +
+                "• Nunca acenda uma churrasqueira com álcool, principalmente líquidos.\n" +
+                "• Tenha cuidado ao deixar o telefone na tomada por longos" +
+                " períodos de tempo para carregar, pois isso pode causar choque" +
+                " elétrico e pequenos incêndios. O protetor solar deve ser usado diariamente." +
+                " Isso funciona para todos: crianças e adultos, porque não protege" +
+                " apenas contra a exposição ao sol.");
+
+        return prevencao;
+    }
+
+    public List<String> findHistoriaSocorro() {
+        List<String> socorro = new ArrayList<>();
+
+        socorro.add("DEUS");
+        socorro.add("ME");
+        socorro.add("AJUDE");
+        socorro.add("\uD83D\uDE4F");
+
+        return socorro;
     }
 }

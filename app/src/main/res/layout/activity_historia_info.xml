@@ -92,7 +92,7 @@
                                 android:fontFamily="@font/poppins"
                                 android:lineSpacingExtra="3sp"
                                 android:text="Conteúdo História"
-                                android:textAlignment="textStart"
+                                android:textAlignment="center"
                                 android:textColor="@color/default_blue"
                                 android:textSize="16sp"
                                 android:textStyle="bold" />
@@ -124,11 +124,10 @@
         android:id="@+id/seta_esq"
         android:layout_width="wrap_content"
         android:layout_height="50dp"
-        android:layout_marginEnd="10dp"
         android:adjustViewBounds="true"
         android:scaleType="centerCrop"
         app:layout_constraintBottom_toBottomOf="@+id/imgHome2"
-        app:layout_constraintEnd_toStartOf="@+id/imgHome2"
+        app:layout_constraintStart_toStartOf="@+id/imageView11"
         app:layout_constraintTop_toTopOf="@+id/imgHome2"
         app:srcCompat="@drawable/seta_esquerda" />
 
@@ -136,11 +135,10 @@
         android:id="@+id/seta_dir"
         android:layout_width="wrap_content"
         android:layout_height="50dp"
-        android:layout_marginStart="10dp"
         android:adjustViewBounds="true"
         android:scaleType="centerCrop"
         app:layout_constraintBottom_toBottomOf="@+id/imgHome2"
-        app:layout_constraintStart_toEndOf="@+id/imgHome2"
+        app:layout_constraintEnd_toEndOf="@+id/imageView11"
         app:layout_constraintTop_toTopOf="@+id/imgHome2"
         app:srcCompat="@drawable/seta_direita" />
 

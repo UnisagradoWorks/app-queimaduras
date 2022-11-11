@@ -1,5 +1,6 @@
 package br.com.unisagrado.appqueimaduras.activities;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
@@ -26,16 +27,19 @@ public class HistoriaInfoActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_historia_info);
 
+        ImageView imgHome = findViewById(R.id.imgHome2);
         TextView txtTituloHistoria = findViewById(R.id.txtTituloHist);
+
+        imgHome.setOnClickListener(this::abrirHome);
         txtHistoria = findViewById(R.id.txtHistoria);
         setaEsq = findViewById(R.id.seta_esq);
         setaDir = findViewById(R.id.seta_dir);
 
-        setaDir.setOnClickListener((view) -> {
+        setaDir.setOnClickListener(view -> {
             pagina++;
             atualizarPagina();
         });
-        setaEsq.setOnClickListener((view) -> {
+        setaEsq.setOnClickListener(view -> {
             pagina--;
             atualizarPagina();
         });
@@ -58,9 +62,13 @@ public class HistoriaInfoActivity extends AppCompatActivity {
                 break;
             case HistoriasActivity.PREVENCOES:
                 txtTituloHistoria.setText("PREVENCOES");
+                historia = historiaService.findHistoriaPrevencao();
+                atualizarPagina();
                 break;
             case HistoriasActivity.SOCORROS:
                 txtTituloHistoria.setText("SOCORROS");
+                historia = historiaService.findHistoriaSocorro();
+                atualizarPagina();
                 break;
         }
     }
@@ -85,6 +93,10 @@ public class HistoriaInfoActivity extends AppCompatActivity {
                 setaDir.setClickable(true);
             }
         }
+    }
 
+    public void abrirHome(View view) {
+        Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
     }
 }
