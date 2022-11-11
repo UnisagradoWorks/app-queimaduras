@@ -1,14 +1,15 @@
-package br.com.unisagrado.appqueimaduras;
-
-import androidx.appcompat.app.AppCompatActivity;
+package br.com.unisagrado.appqueimaduras.activities;
 
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import java.util.List;
 
+import br.com.unisagrado.appqueimaduras.R;
 import br.com.unisagrado.appqueimaduras.service.HistoriaService;
 
 public class HistoriaInfoActivity extends AppCompatActivity {

@@ -10,33 +10,40 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppQueimaduras">
         <activity
-            android:name=".InstituicaoActivity"
+            android:name=".activities.ReferenciasActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".DesenvolvedoresActivity"
+            android:name=".activities.InstituicaoActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".CreditosActivity"
+            android:name=".activities.DesenvolvedoresActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".activities.CreditosActivity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".HistoriaInfoActivity"
+            android:name=".activities.HistoriaInfoActivity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".HistoriasActivity"
+            android:name=".activities.HistoriasActivity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".SplashScreenActivity"
+            android:name=".activities.SplashScreenActivity"
             android:exported="true"
             android:noHistory="true"
             android:screenOrientation="portrait">
@@ -47,7 +54,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name=".activities.MainActivity"
             android:exported="false"
             android:screenOrientation="portrait" />
 

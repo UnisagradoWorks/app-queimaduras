@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.ReferenciasActivity">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardIcon"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="22dp"
+                    app:cardCornerRadius="80dp"
+                    app:cardElevation="0dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <ImageView
+                        android:id="@+id/bombeirinho_escadinha"
+                        android:layout_width="match_parent"
+                        android:layout_height="110dp"
+                        android:layout_gravity="top"
+                        android:adjustViewBounds="true"
+                        android:background="#00BDFFD9"
+                        android:contentDescription="@string/bombeirinho"
+                        android:cropToPadding="false"
+                        android:foregroundGravity="top"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/bombeiro_escadinha_1" />
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:id="@+id/referencias"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins"
+                    android:foregroundGravity="top"
+                    android:text="@string/telaRef"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/cardIcon"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/cardIcon"
+                    app:layout_constraintTop_toTopOf="@+id/cardIcon" />
+
+                <ImageView
+                    android:id="@+id/home"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp"
+                    android:adjustViewBounds="true"
+                    android:contentDescription="@string/home"
+                    android:foregroundGravity="bottom"
+                    android:scaleType="centerCrop"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/referencia6"
+                    app:srcCompat="@drawable/menu_verde"
+                    tools:ignore="ImageContrastCheck" />
+
+                <ImageView
+                    android:id="@+id/referencia1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="80dp"
+                    android:src="@drawable/retangulo_referencias"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/referencias"
+                    android:contentDescription="@string/referencias" />
+
+                <TextView
+                    android:id="@+id/txtReferencia1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/istockphoto"
+                    android:textAlignment="center"
+                    android:textColor="@color/default_red"
+                    android:textSize="20sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/referencia1"
+                    app:layout_constraintEnd_toEndOf="@+id/referencia1"
+                    app:layout_constraintStart_toStartOf="@+id/referencia1"
+                    app:layout_constraintTop_toTopOf="@+id/referencia1" />
+
+                <ImageView
+                    android:id="@+id/referencia2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/retangulo_referencias"
+                    app:layout_constraintEnd_toEndOf="@+id/referencia1"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="@+id/referencia1"
+                    app:layout_constraintTop_toBottomOf="@+id/referencia1"
+                    android:contentDescription="@string/referencias" />
+
+                <TextView
+                    android:id="@+id/txtReferencia2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/anaviq"
+                    android:textAlignment="center"
+                    android:textColor="@color/default_red"
+                    android:textSize="20sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/referencia2"
+                    app:layout_constraintEnd_toEndOf="@+id/referencia2"
+                    app:layout_constraintStart_toStartOf="@+id/referencia2"
+                    app:layout_constraintTop_toTopOf="@+id/referencia2" />
+
+                <ImageView
+                    android:id="@+id/referencia3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/retangulo_referencias"
+                    app:layout_constraintEnd_toEndOf="@+id/referencia2"
+                    app:layout_constraintStart_toStartOf="@+id/referencia2"
+                    app:layout_constraintTop_toBottomOf="@+id/referencia2"
+                    android:contentDescription="@string/referencias" />
+
+                <TextView
+                    android:id="@+id/txtReferencia3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/msdmanuals"
+                    android:textAlignment="center"
+                    android:textColor="@color/default_red"
+                    android:textSize="20sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/referencia3"
+                    app:layout_constraintEnd_toEndOf="@+id/referencia3"
+                    app:layout_constraintStart_toStartOf="@+id/referencia3"
+                    app:layout_constraintTop_toTopOf="@+id/referencia3" />
+
+                <ImageView
+                    android:id="@+id/referencia4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/retangulo_referencias"
+                    app:layout_constraintEnd_toEndOf="@+id/referencia3"
+                    app:layout_constraintStart_toStartOf="@+id/referencia3"
+                    app:layout_constraintTop_toBottomOf="@+id/referencia3"
+                    android:contentDescription="@string/referencias" />
+
+                <TextView
+                    android:id="@+id/txtReferencia4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/einstein"
+                    android:textAlignment="center"
+                    android:textColor="@color/default_red"
+                    android:textSize="20sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/referencia4"
+                    app:layout_constraintEnd_toEndOf="@+id/referencia4"
+                    app:layout_constraintStart_toStartOf="@+id/referencia4"
+                    app:layout_constraintTop_toTopOf="@+id/referencia4" />
+
+                <ImageView
+                    android:id="@+id/referencia5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/retangulo_referencias"
+                    app:layout_constraintEnd_toEndOf="@+id/referencia4"
+                    app:layout_constraintStart_toStartOf="@+id/referencia4"
+                    app:layout_constraintTop_toBottomOf="@+id/referencia4"
+                    android:contentDescription="@string/referencias" />
+
+                <TextView
+                    android:id="@+id/txtReferencia5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/istockphoto"
+                    android:textAlignment="center"
+                    android:textColor="@color/default_red"
+                    android:textSize="20sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/referencia5"
+                    app:layout_constraintEnd_toEndOf="@+id/referencia5"
+                    app:layout_constraintStart_toStartOf="@+id/referencia5"
+                    app:layout_constraintTop_toTopOf="@+id/referencia5" />
+
+                <ImageView
+                    android:id="@+id/referencia6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/retangulo_referencias"
+                    app:layout_constraintEnd_toEndOf="@+id/referencia5"
+                    app:layout_constraintStart_toStartOf="@+id/referencia5"
+                    app:layout_constraintTop_toBottomOf="@+id/referencia5"
+                    android:contentDescription="@string/referencias" />
+
+                <TextView
+                    android:id="@+id/txtReferencia6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/istockphoto"
+                    android:textAlignment="center"
+                    android:textColor="@color/default_red"
+                    android:textSize="20sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/referencia6"
+                    app:layout_constraintEnd_toEndOf="@+id/referencia6"
+                    app:layout_constraintStart_toStartOf="@+id/referencia6"
+                    app:layout_constraintTop_toTopOf="@+id/referencia6" />
+
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

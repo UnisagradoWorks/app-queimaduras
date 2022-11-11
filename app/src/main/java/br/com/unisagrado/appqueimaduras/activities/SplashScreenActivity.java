@@ -1,11 +1,13 @@
-package br.com.unisagrado.appqueimaduras;
-
-import androidx.appcompat.app.AppCompatActivity;
+package br.com.unisagrado.appqueimaduras.activities;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import br.com.unisagrado.appqueimaduras.R;
 
 @SuppressLint("CustomSplashScreen")
 public class SplashScreenActivity extends AppCompatActivity {

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:foregroundGravity="center_vertical|center"
-    tools:context=".CreditosActivity">
+    tools:context=".activities.CreditosActivity">
 
     <ScrollView
         android:layout_width="0dp"
@@ -30,7 +30,7 @@
                     android:layout_height="83.65dp"
                     android:layout_marginTop="10dp"
                     android:adjustViewBounds="true"
-                    android:contentDescription="@string/botaoReferencias"
+                    android:contentDescription="@string/descricaoReferencia"
                     android:cropToPadding="false"
                     android:visibility="visible"
                     app:layout_constraintEnd_toStartOf="@+id/textView13"
@@ -47,7 +47,7 @@
                     android:layout_gravity="center|center_horizontal"
                     android:layout_marginTop="10dp"
                     android:adjustViewBounds="true"
-                    android:contentDescription="@string/botaoReferencias"
+                    android:contentDescription="@string/descricaoReferencia"
                     android:cropToPadding="false"
                     android:visibility="visible"
                     app:layout_constraintEnd_toEndOf="@+id/mariana"
@@ -62,7 +62,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="83.65dp"
                     android:adjustViewBounds="true"
-                    android:contentDescription="@string/botaoReferencias"
+                    android:contentDescription="@string/descricaoReferencia"
                     android:cropToPadding="false"
                     android:visibility="visible"
                     app:layout_constraintEnd_toStartOf="@+id/textView14"
@@ -161,7 +161,7 @@
                     android:layout_height="83.65dp"
                     android:layout_marginTop="10dp"
                     android:adjustViewBounds="true"
-                    android:contentDescription="@string/botaoReferencias"
+                    android:contentDescription="@string/descricaoReferencia"
                     android:cropToPadding="false"
                     android:visibility="visible"
                     app:layout_constraintEnd_toEndOf="@+id/biomedicina"
@@ -237,7 +237,6 @@
                     android:layout_width="wrap_content"
                     android:layout_height="80dp"
                     android:adjustViewBounds="true"
-                    android:contentDescription="@string/botaoReferencias"
                     android:cropToPadding="false"
                     android:visibility="visible"
                     app:layout_constraintEnd_toStartOf="@+id/jessica"
@@ -252,7 +251,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="83.65dp"
                     android:adjustViewBounds="true"
-                    android:contentDescription="@string/botaoReferencias"
+                    android:contentDescription="@string/descricaoReferencia"
                     android:cropToPadding="false"
                     android:visibility="visible"
                     app:layout_constraintEnd_toEndOf="parent"
@@ -261,13 +260,6 @@
                     app:srcCompat="@drawable/github_icon"
                     tools:ignore="ImageContrastCheck"
                     tools:visibility="visible" />
-
-                <androidx.constraintlayout.widget.Guideline
-                    android:id="@+id/guideline2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    app:layout_constraintGuide_begin="20dp" />
 
                 <TextView
                     android:id="@+id/textView13"

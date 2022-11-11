@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:foregroundGravity="center_vertical|center"
-    tools:context=".CreditosActivity">
+    tools:context=".activities.CreditosActivity">
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardIcon"
@@ -33,14 +33,14 @@
     </androidx.cardview.widget.CardView>
 
     <ImageView
-        android:id="@+id/referencias2"
+        android:id="@+id/referencias"
         android:layout_width="148dp"
         android:layout_height="177dp"
         android:layout_gravity="center|center_horizontal"
         android:layout_marginStart="15dp"
         android:layout_marginEnd="40dp"
         android:adjustViewBounds="true"
-        android:contentDescription="@string/botaoReferencias"
+        android:contentDescription="@string/descricaoReferencia"
         android:visibility="visible"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/desenvolvedores"
@@ -58,9 +58,9 @@
         android:layout_marginTop="60dp"
         android:layout_marginEnd="15dp"
         android:adjustViewBounds="true"
-        android:contentDescription="@string/botaoReferencias"
+        android:contentDescription="@string/descricaoReferencia"
         android:visibility="visible"
-        app:layout_constraintEnd_toStartOf="@+id/referencias2"
+        app:layout_constraintEnd_toStartOf="@+id/referencias"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/cardIcon"
         app:srcCompat="@drawable/desenvolvedores"
@@ -78,7 +78,7 @@
         android:visibility="visible"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/referencias2"
+        app:layout_constraintTop_toBottomOf="@+id/referencias"
         app:srcCompat="@drawable/instituicao_ensino"
         tools:visibility="visible" />
 

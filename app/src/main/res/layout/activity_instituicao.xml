@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".InstituicaoActivity">
+    tools:context=".activities.InstituicaoActivity">
 
     <ScrollView
         android:layout_width="0dp"
@@ -88,7 +88,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
                     android:adjustViewBounds="true"
-                    android:contentDescription="@string/botaoReferencias"
+                    android:contentDescription="@string/descricaoReferencia"
                     android:cropToPadding="false"
                     android:visibility="visible"
                     app:layout_constraintEnd_toEndOf="@+id/professor"

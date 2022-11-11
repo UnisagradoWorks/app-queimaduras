@@ -1,37 +1,19 @@
 <resources>
-    <string name="app_name">App Queimaduras</string>
-    <!--    <string name="textoApresentacao">Obrigado por chegar até aqui!\nConheça os colaboradores desse projeto.</string>-->
+    <string name="app_name"><b>Kids</b>burn</string>
+
+    <!-- CREDITOS-->
     <string name="textoApresentacao"> Aqui estão os <b> colaboradores </b> para que esse aplicativo fosse desenvolvido.</string>
-    <string name="telaDevs">Aqui estão os <b>desenvolvedores</b></string>
-    <string name="computacao"><b>Ciência da Computação</b></string>
-    <string name="projetoExtencionista"><b>Projeto \n Extencionista </b></string>
-    <string name="telaInstituicao"><b>KIDS</b>burn</string>
-    <string name="biomedicina"><b>Biomedicina</b></string>
-    <string name="professor"><b>Professor</b></string>
-    <string name="apoio">apoio</string>
-    <string name="unisagrado">UNISAGRADO</string>
-    <string name="referencias">REFERÊNCIAS</string>
-    <string name="desenvolvimento">desenvolvimento</string>
-    <string name="colaboradores">COLABORADORES</string>
     <string name="bombeirinho">bombeirinho</string>
-    <string name="informacoes">informações</string>
     <string name="home">home</string>
-    <string name="botaodesenvolvedores">botaoDesenvolvedores</string>
-    <string name="botaoReferencias" />
     <string name="botaoInstituicaoEnsino" />
 
-    <string-array name="titulos_historias">
-        <item></item>
-    </string-array>
-    <string name="title_activity_desenvolvedores">activity_desenvolvedores</string>
-    <!-- Strings used for fragments for navigation -->
-    <string name="first_fragment_label">First Fragment</string>
-    <string name="second_fragment_label">Second Fragment</string>
-    <string name="next">Next</string>
-    <string name="previous">Previous</string>
 
-    <string name="hello_first_fragment">Hello first fragment</string>
-    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <!-- TELA DE DEVS-->
+    <string name="telaDevs">Aqui estão os <b>desenvolvedores</b></string>
+    <string name="computacao"><b>Ciência da Computação</b></string>
+    <string name="biomedicina"><b>Biomedicina</b></string>
+    <string name="referencias">referencias</string>
+    <string name="descricaoReferencia" />
     <string name="felipe_n_gabriel">Felipe \n Gabriel</string>
     <string name="jessica">Jéssica Celestino</string>
     <string name="marianaFernandes">Mariana \n Fernandes</string>
@@ -39,5 +21,19 @@
     <string name="pauloCesar">Paulo \nCésar</string>
     <string name="marcosRangel">Marcos \n Rangel</string>
     <string name="elvioGilberto">Prof. Dr. Elvio Gilberto da Silva</string>
+
+    <!-- TELA DE INSTITUICAO-->
+    <string name="projetoExtencionista"><b>Projeto \n Extencionista </b></string>
+    <string name="telaInstituicao"><b>KIDS</b>burn</string>
+    <string name="professor"><b>Professor</b></string>
+
+    <!-- TELA DE REFERENCIAS-->
+    <string name="telaRef">Aqui estão as <b>referências</b></string>
+    <string name="istockphoto"><b>istockphoto</b></string>
+    <string name="anaviq"><b>ANAVIQ</b></string>
+    <string name="msdmanuals"><b>MSD Manuals</b></string>
+    <string name="einstein"><b>Einstein</b></string>
+
+
 
 </resources>
