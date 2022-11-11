@@ -21,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
         CardView cardCreditos = findViewById(R.id.cardCreditos);
 
         cardHistorias.setOnClickListener(this::abrirHistorias);
+        cardQuiz.setOnClickListener(this::abrirQuiz);
         cardCreditos.setOnClickListener(this::abrirCreditos);
     }
 
@@ -31,6 +32,11 @@ public class MainActivity extends AppCompatActivity {
 
     private void abrirCreditos(View view) {
         Intent intent = new Intent(this, CreditosActivity.class);
+        startActivity(intent);
+    }
+
+    private void abrirQuiz(View view) {
+        Intent intent = new Intent(this, QuizActivity.class);
         startActivity(intent);
     }
 }

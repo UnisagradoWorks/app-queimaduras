@@ -6,7 +6,6 @@ import android.view.View;
 import android.widget.ImageView;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.cardview.widget.CardView;
 
 import br.com.unisagrado.appqueimaduras.R;
 
@@ -23,10 +22,10 @@ public class HistoriasActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_historias);
 
-        CardView cardAgentes = findViewById(R.id.cardAgentes);
-        CardView cardGraus = findViewById(R.id.cardGraus);
-        CardView cardPrevencoes = findViewById(R.id.cardPrevencoes);
-        CardView cardSocorros = findViewById(R.id.cardSocorros);
+        ImageView cardAgentes = findViewById(R.id.cardAgentes);
+        ImageView cardGraus = findViewById(R.id.cardGraus);
+        ImageView cardPrevencoes = findViewById(R.id.cardPrevencoes);
+        ImageView cardSocorros = findViewById(R.id.cardSocorros);
 
         ImageView imgHome = findViewById(R.id.imgHome);
 

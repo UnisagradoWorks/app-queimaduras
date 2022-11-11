@@ -37,5 +37,11 @@
     <!-- TELA SPLASH-->
     <string name="textoSplash">Uma maneira mais fácil de aprender sobre queimaduras</string>
 
+    <!-- TELA HISTORIAS-->
+    <string name="textoHistorias"><b>Escolha</b> por onde começar</string>
+
+    <!-- TELA DE QUIZ -->
+    <string name="textoQuiz">Agora vamos colocar em <b>prática</b> o que você <b>aprendeu</b></string>
+
 
 </resources>
