@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppQueimaduras">
         <activity
+            android:name=".activities.QuizActivity"
+            android:exported="false" />
+        <activity
             android:name=".activities.ReferenciasActivity"
             android:exported="false">
             <meta-data
