@@ -24,34 +24,50 @@
                 android:layout_height="match_parent">
 
                 <TextView
-                    android:id="@+id/projetoExtencionista"
+                    android:id="@+id/textoExtensionista"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="50dp"
-                    android:fontFamily="@font/poppins"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/poppins_thin"
                     android:foregroundGravity="center_vertical|center"
-                    android:text="@string/projetoExtencionista"
+                    android:text="@string/projetoExtensionista"
                     android:textAlignment="center"
                     android:textColor="@color/black"
                     android:textSize="20sp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/nomeApp" />
+                    app:layout_constraintTop_toBottomOf="@+id/logoUnisagrado" />
+
+                <ImageView
+                    android:id="@+id/logoProjetoExtensao"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:adjustViewBounds="true"
+                    android:contentDescription="@string/descricaoReferencia"
+                    android:cropToPadding="false"
+                    android:scaleX="1.2"
+                    android:scaleY="1.2"
+                    app:layout_constraintEnd_toEndOf="@+id/textoExtensionista"
+                    app:layout_constraintStart_toStartOf="@+id/textoExtensionista"
+                    app:layout_constraintTop_toBottomOf="@+id/textoExtensionista"
+                    app:srcCompat="@drawable/projeto_extensao"
+                    tools:ignore="MissingConstraints" />
 
                 <TextView
                     android:id="@+id/professor"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="50dp"
+                    android:layout_marginTop="20dp"
                     android:fontFamily="@font/poppins"
                     android:foregroundGravity="center_vertical|center"
                     android:text="@string/professor"
                     android:textAlignment="center"
                     android:textColor="@color/black"
                     android:textSize="20sp"
-                    app:layout_constraintEnd_toEndOf="@+id/logoUnisagrado"
-                    app:layout_constraintStart_toStartOf="@+id/logoUnisagrado"
-                    app:layout_constraintTop_toBottomOf="@+id/logoUnisagrado" />
+                    app:layout_constraintEnd_toEndOf="@+id/logoProjetoExtensao"
+                    app:layout_constraintStart_toStartOf="@+id/logoProjetoExtensao"
+                    app:layout_constraintTop_toBottomOf="@+id/logoProjetoExtensao" />
 
                 <androidx.cardview.widget.CardView
                     android:id="@+id/cardIcon"
@@ -133,15 +149,15 @@
 
                 <ImageView
                     android:id="@+id/logoUnisagrado"
-                    android:onClick="abrirUrl"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="50dp"
+                    android:layout_marginTop="20dp"
                     android:contentDescription="logo unisagrado"
-                    app:layout_constraintEnd_toEndOf="@+id/projetoExtencionista"
-                    app:layout_constraintStart_toStartOf="@+id/projetoExtencionista"
-                    app:layout_constraintTop_toBottomOf="@+id/projetoExtencionista"
-                    app:srcCompat="@drawable/logo_unisagrado"/>
+                    android:onClick="abrirUrl"
+                    app:layout_constraintEnd_toEndOf="@+id/textoExtensionista"
+                    app:layout_constraintStart_toStartOf="@+id/textoExtensionista"
+                    app:layout_constraintTop_toBottomOf="@+id/nomeApp"
+                    app:srcCompat="@drawable/logo_unisagrado" />
 
             </androidx.constraintlayout.widget.ConstraintLayout>
         </LinearLayout>

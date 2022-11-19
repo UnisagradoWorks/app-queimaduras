@@ -26,6 +26,9 @@ public class InstituicaoActivity extends AppCompatActivity {
         ImageView logoUnisagrado = findViewById(R.id.logoUnisagrado);
         logoUnisagrado.setOnClickListener(this::abrirUrl);
 
+        ImageView logoProjetoExtensao = findViewById(R.id.logoProjetoExtensao);
+        logoProjetoExtensao.setOnClickListener(this::abrirUrl);
+
         ImageView linkedInElvio = findViewById(R.id.linkedInElvio);
         linkedInElvio.setOnClickListener(this::abrirUrl);
 
@@ -43,13 +46,16 @@ public class InstituicaoActivity extends AppCompatActivity {
         intent.setAction(Intent.ACTION_VIEW);
         intent.addCategory(Intent.CATEGORY_BROWSABLE);
 
-        if(view.getId() == R.id.logoUnisagrado){
+        if (view.getId() == R.id.logoUnisagrado) {
             String url = "https://www.unisagrado.edu.br/";
             intent.setData(android.net.Uri.parse(url));
-        } else if (view.getId() == R.id.linkedInElvio){
+        } else if (view.getId() == R.id.logoProjetoExtensao) {
+            String url = "https://unisagrado.edu.br/site/conteudo/11162-unisagrado-tem-nova-pro-reitora-de-extensao-.html";
+            intent.setData(android.net.Uri.parse(url));
+        } else if (view.getId() == R.id.linkedInElvio) {
             String url = "https://www.linkedin.com/in/elvio-gilberto-da-silva-643699191/";
             intent.setData(android.net.Uri.parse(url));
-        } else if(view.getId() == R.id.nomeApp){
+        } else if (view.getId() == R.id.nomeApp) {
             String url = "https://github.com/UnisagradoWorks";
             intent.setData(android.net.Uri.parse(url));
         }

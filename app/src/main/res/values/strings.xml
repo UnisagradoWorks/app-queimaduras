@@ -24,7 +24,7 @@
     <string name="elvioGilberto">Prof. Dr. Elvio Gilberto da Silva</string>
 
     <!-- TELA DE INSTITUICAO-->
-    <string name="projetoExtencionista"><b>Projeto \n Extencionista </b></string>
+    <string name="projetoExtensionista"><b>Projeto Extensionista vinculado à:</b></string>
     <string name="professor"><b>Professor</b></string>
 
     <!-- TELA DE REFERENCIAS-->
