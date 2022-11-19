@@ -24,7 +24,7 @@
     <string name="elvioGilberto">Prof. Dr. Elvio Gilberto da Silva</string>
 
     <!-- TELA DE INSTITUICAO-->
-    <string name="projetoExtensionista"><b>Projeto Extensionista vinculado à:</b></string>
+    <string name="projetoExtensionista">Projeto de Extensão "Desenvolvimento de um App para prevenção de queimaduras" em parceria com o projeto Assessoria de comunicação - ASSECOM vinculados à:"</string>
     <string name="professor"><b>Professor</b></string>
 
     <!-- TELA DE REFERENCIAS-->
