@@ -12,6 +12,7 @@ import java.util.List;
 
 import br.com.unisagrado.appqueimaduras.R;
 import br.com.unisagrado.appqueimaduras.service.HistoriaService;
+import br.com.unisagrado.appqueimaduras.utils.AppUtils;
 
 public class HistoriaInfoActivity extends AppCompatActivity {
 
@@ -61,7 +62,7 @@ public class HistoriaInfoActivity extends AppCompatActivity {
                 atualizarPagina();
                 break;
             case HistoriasActivity.PREVENCOES:
-                txtTituloHistoria.setText("PREVENCOES");
+                txtTituloHistoria.setText("PREVENCÕES");
                 historia = historiaService.findHistoriaPrevencao();
                 atualizarPagina();
                 break;

@@ -8,6 +8,7 @@ import android.widget.ImageView;
 import androidx.appcompat.app.AppCompatActivity;
 
 import br.com.unisagrado.appqueimaduras.R;
+import br.com.unisagrado.appqueimaduras.utils.AppUtils;
 
 public class SelecaoQuizActivity extends AppCompatActivity {
 
@@ -26,7 +27,9 @@ public class SelecaoQuizActivity extends AppCompatActivity {
         ImageView imgGraus = findViewById(R.id.imgGraus);
         ImageView imgPrevencoes = findViewById(R.id.imgPrevencoes);
         ImageView imgSocorros = findViewById(R.id.imgSocorros);
+        ImageView imgHome = findViewById(R.id.imgHome);
 
+        imgHome.setOnClickListener(AppUtils::abrirHome);
         imgAgentes.setOnClickListener(this::abrirQuizAgentes);
         imgGraus.setOnClickListener(this::abrirQuizGraus);
         imgPrevencoes.setOnClickListener(this::abrirQuizPrevencoes);

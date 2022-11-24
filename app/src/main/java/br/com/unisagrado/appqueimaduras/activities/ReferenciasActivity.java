@@ -9,6 +9,7 @@ import android.widget.ImageView;
 import androidx.appcompat.app.AppCompatActivity;
 
 import br.com.unisagrado.appqueimaduras.R;
+import br.com.unisagrado.appqueimaduras.utils.AppUtils;
 
 public class ReferenciasActivity extends AppCompatActivity {
 

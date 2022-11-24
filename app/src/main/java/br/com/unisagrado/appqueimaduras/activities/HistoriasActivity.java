@@ -8,6 +8,7 @@ import android.widget.ImageView;
 import androidx.appcompat.app.AppCompatActivity;
 
 import br.com.unisagrado.appqueimaduras.R;
+import br.com.unisagrado.appqueimaduras.utils.AppUtils;
 
 public class HistoriasActivity extends AppCompatActivity {
 
@@ -29,16 +30,11 @@ public class HistoriasActivity extends AppCompatActivity {
 
         ImageView imgHome = findViewById(R.id.imgHome);
 
-        imgHome.setOnClickListener(this::abrirHome);
+        imgHome.setOnClickListener(AppUtils::abrirHome);
         cardAgentes.setOnClickListener(this::abrirHistoriaAgentes);
         cardGraus.setOnClickListener(this::abrirHistoriaGraus);
         cardPrevencoes.setOnClickListener(this::abrirHistoriaPrevencoes);
         cardSocorros.setOnClickListener(this::abrirHistoriaSocorros);
-    }
-
-    public void abrirHome(View view) {
-        Intent intent = new Intent(this, MainActivity.class);
-        startActivity(intent);
     }
 
     private void abrirHistoriaAgentes(View view) {

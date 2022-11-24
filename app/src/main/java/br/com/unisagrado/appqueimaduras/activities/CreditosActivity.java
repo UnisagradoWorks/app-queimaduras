@@ -8,6 +8,7 @@ import android.widget.ImageView;
 import androidx.appcompat.app.AppCompatActivity;
 
 import br.com.unisagrado.appqueimaduras.R;
+import br.com.unisagrado.appqueimaduras.utils.AppUtils;
 
 public class CreditosActivity extends AppCompatActivity {
 
@@ -20,7 +21,7 @@ public class CreditosActivity extends AppCompatActivity {
 
     private void views() {
         ImageView menuPrincipal = findViewById(R.id.home);
-        menuPrincipal.setOnClickListener(this::abrirTela);
+        menuPrincipal.setOnClickListener(AppUtils::abrirHome);
 
         ImageView desenvolvedores = findViewById(R.id.desenvolvedores);
         desenvolvedores.setOnClickListener(this::abrirTela);
@@ -33,10 +34,7 @@ public class CreditosActivity extends AppCompatActivity {
     }
 
     private void abrirTela(View view) {
-        if(view.getId() == R.id.home) {
-            Intent intent = new Intent(this, MainActivity.class);
-            startActivity(intent);
-        } else if(view.getId() == R.id.desenvolvedores) {
+        if(view.getId() == R.id.desenvolvedores) {
             Intent intent = new Intent(this, DesenvolvedoresActivity.class);
             startActivity(intent);
         } else if(view.getId() == R.id.instituicao) {
