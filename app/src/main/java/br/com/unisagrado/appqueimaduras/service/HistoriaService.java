@@ -14,16 +14,15 @@ public class HistoriaService {
                 "(ou ainda biológicos) capazes de produzir calor excessivo que danifica os " +
                 "tecidos corporais e causa a morte celular.");
 
-        historia.add("o agente causador do tipo físico é UM dos que vamos conhecer hoje! ele é " +
+        historia.add("O agente causador do tipo físico é UM dos que vamos conhecer hoje! Ele é " +
                 "classificado em três etapas: temperatura, eletricidade e radiação. " +
                 "Alguns exemplos de queimadura por: \n" +
-                "\t-temperatura: vapor, objetos aquecidos, água quente, fogos de artifícios, frio. \n" +
-                "\t-eletricidade: corrente elétrica, raio.\n" +
-                "\t-radiação: sol, aparelhos de raios X, raios ultra-violetas, nucleares.");
+                "\t• Temperatura: vapor, objetos aquecidos, água quente, fogos de artifícios, frio. \n" +
+                "\t• Eletricidade: corrente elétrica, raio.\n" +
+                "\t• Radiação: sol, aparelhos de raios X, raios ultra-violetas, nucleares.");
         historia.add("Outro tipo de agente causador é o químico. É possível reconhecer esse tipo " +
                 "de queimadura quando se tem contato com produtos químicos como por exemplo: " +
-                "ácidos, bases, álcool, gasolina.\n" +
-                "\n" +
+                " ácidos, bases, álcool, gasolina.\n" +
                 "É importante tomar muito cuidado ao ter contato com algum " +
                 "desses produtos! Fique atento.\n");
         historia.add("O tipo de queimadura biológico é causado por seres vivos! " +
@@ -74,12 +73,12 @@ public class HistoriaService {
         prevencao.add("A Organização Mundial da Saúde (OMS) revelou que 320.000 crianças morrem" +
                 " todos os anos pelas mesmas causas. Por isso, pequenos cuidados são importantes" +
                 " para salvar vidas. Temos alguns exemplos como: \n" +
-                "• Mantenha as crianças fora da cozinha enquanto cozinhamos.\n" +
-                "• Fósforos e isqueiros devem ser mantidos longe das crianças.\n" +
-                "• Sempre tente educar e educar as crianças sobre os perigos das queimaduras.");
+                "Mantenha as crianças fora da cozinha enquanto cozinhamos.\n" +
+                "Fósforos e isqueiros devem ser mantidos longe das crianças.\n" +
+                "Sempre tente educar e educar as crianças sobre os perigos das queimaduras.");
         prevencao.add("Além de outras situações comuns que todos nós encontramos:\n" +
-                "• Nunca acenda uma churrasqueira com álcool, principalmente líquidos.\n" +
-                "• Tenha cuidado ao deixar o telefone na tomada por longos" +
+                "Nunca acenda uma churrasqueira com álcool, principalmente líquidos.\n" +
+                "Tenha cuidado ao deixar o telefone na tomada por longos" +
                 " períodos de tempo para carregar, pois isso pode causar choque" +
                 " elétrico e pequenos incêndios. O protetor solar deve ser usado diariamente." +
                 " Isso funciona para todos: crianças e adultos, porque não protege" +

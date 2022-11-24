@@ -30,7 +30,7 @@ public class HistoriaInfoActivity extends AppCompatActivity {
         ImageView imgHome = findViewById(R.id.imgHome2);
         TextView txtTituloHistoria = findViewById(R.id.txtTituloHist);
 
-        imgHome.setOnClickListener(this::abrirHome);
+        imgHome.setOnClickListener(this::abrirMenuHistorias);
         txtHistoria = findViewById(R.id.txtHistoria);
         setaEsq = findViewById(R.id.seta_esq);
         setaDir = findViewById(R.id.seta_dir);
@@ -95,8 +95,8 @@ public class HistoriaInfoActivity extends AppCompatActivity {
         }
     }
 
-    public void abrirHome(View view) {
-        Intent intent = new Intent(this, MainActivity.class);
+    public void abrirMenuHistorias(View view) {
+        Intent intent = new Intent(this, HistoriasActivity.class);
         startActivity(intent);
     }
 }

@@ -32,12 +32,12 @@ public class InstituicaoActivity extends AppCompatActivity {
         ImageView linkedInElvio = findViewById(R.id.linkedInElvio);
         linkedInElvio.setOnClickListener(this::abrirUrl);
 
-        ImageView menuPrincipal = findViewById(R.id.home);
-        menuPrincipal.setOnClickListener(this::abrirMenuPrincipal);
+        ImageView menuCreditos = findViewById(R.id.home);
+        menuCreditos.setOnClickListener(this::abrirMenuCreditos);
     }
 
-    private void abrirMenuPrincipal(View view) {
-        Intent intent = new Intent(this, MainActivity.class);
+    private void abrirMenuCreditos(View view) {
+        Intent intent = new Intent(this, CreditosActivity.class);
         startActivity(intent);
     }
 

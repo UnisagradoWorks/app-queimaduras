@@ -25,17 +25,17 @@ public class ReferenciasActivity extends AppCompatActivity {
         ImageButton referencia2 = findViewById(R.id.referencia2);
         ImageButton referencia3 = findViewById(R.id.referencia3);
         ImageButton referencia4 = findViewById(R.id.referencia4);
-        ImageView menuPrincipal = findViewById(R.id.home);
+        ImageView menuCreditos = findViewById(R.id.home);
 
         referencia1.setOnClickListener(this::abrirUrl);
         referencia2.setOnClickListener(this::abrirUrl);
         referencia3.setOnClickListener(this::abrirUrl);
         referencia4.setOnClickListener(this::abrirUrl);
-        menuPrincipal.setOnClickListener(this::abrirMenuPrincipal);
+        menuCreditos.setOnClickListener(this::abrirMenuCreditos);
     }
 
-    private void abrirMenuPrincipal(View view) {
-        Intent intent = new Intent(this, MainActivity.class);
+    private void abrirMenuCreditos(View view) {
+        Intent intent = new Intent(this, CreditosActivity.class);
         startActivity(intent);
     }
 
