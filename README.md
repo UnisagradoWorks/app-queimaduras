@@ -18,7 +18,7 @@ O projeto tem como função... [descricao do app]
 
 - [@Felipe Gabriel](https://github.com/LipeGabriell)
 - [@Jéssica Celestino](https://github.com/jescacelestino)
+- [@Marcos Rangel](https://www.linkedin.com/in/mv-rangel)
 - [@Mariana Fernandes](https://github.com/mariferndes)
 - [@Paulo Ferrarez](https://github.com/pauloferrarez)
 - [@Vinicius Bueno](https://github.com/BuenoBueno)
-- [@Marcos Rangel](https://www.linkedin.com/in/mv-rangel)
