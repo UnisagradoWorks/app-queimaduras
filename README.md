@@ -21,3 +21,4 @@ O projeto tem como função... [descricao do app]
 - [@mariferndes](https://github.com/mariferndes)
 - [@pauloferrarez](https://github.com/pauloferrarez)
 - [@BuenoBueno](https://github.com/BuenoBueno)
+- [@Marcos Rangel](https://www.linkedin.com/in/mv-rangel)
