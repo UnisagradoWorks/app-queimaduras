@@ -27,8 +27,8 @@
                     android:id="@+id/cardIcon"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="20dp"
-                    android:layout_marginTop="22dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="20dp"
                     app:cardCornerRadius="80dp"
                     app:cardElevation="0dp"
                     app:layout_constraintStart_toStartOf="parent"
@@ -50,8 +50,9 @@
 
                 <TextView
                     android:id="@+id/referencias"
-                    android:layout_width="wrap_content"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
                     android:fontFamily="@font/poppins"
                     android:foregroundGravity="top"
                     android:text="@string/telaRef"
@@ -66,7 +67,7 @@
                 <ImageView
                     android:id="@+id/home"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_height="70dp"
                     android:layout_marginTop="120dp"
                     android:adjustViewBounds="true"
                     android:contentDescription="@string/home"
@@ -83,7 +84,7 @@
                     android:id="@+id/referencia1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="150dp"
+                    android:layout_marginTop="80dp"
                     android:background="#00FFFFFF"
                     android:contentDescription="@string/referencias"
                     android:src="@drawable/retangulo_referencias"
@@ -136,11 +137,11 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:background="#00FFFFFF"
+                    android:contentDescription="@string/referencias"
                     android:src="@drawable/retangulo_referencias"
                     app:layout_constraintEnd_toEndOf="@+id/referencia2"
                     app:layout_constraintStart_toStartOf="@+id/referencia2"
-                    app:layout_constraintTop_toBottomOf="@+id/referencia2"
-                    android:contentDescription="@string/referencias" />
+                    app:layout_constraintTop_toBottomOf="@+id/referencia2" />
 
                 <TextView
                     android:id="@+id/txtReferencia3"
@@ -161,11 +162,11 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:background="#00FFFFFF"
+                    android:contentDescription="@string/referencias"
                     android:src="@drawable/retangulo_referencias"
                     app:layout_constraintEnd_toEndOf="@+id/referencia3"
                     app:layout_constraintStart_toStartOf="@+id/referencia3"
-                    app:layout_constraintTop_toBottomOf="@+id/referencia3"
-                    android:contentDescription="@string/referencias" />
+                    app:layout_constraintTop_toBottomOf="@+id/referencia3" />
 
                 <TextView
                     android:id="@+id/txtReferencia4"

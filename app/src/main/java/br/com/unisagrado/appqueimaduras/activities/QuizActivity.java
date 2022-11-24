@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -18,6 +19,7 @@ import java.util.List;
 import br.com.unisagrado.appqueimaduras.R;
 import br.com.unisagrado.appqueimaduras.model.Quiz;
 import br.com.unisagrado.appqueimaduras.service.QuizService;
+import br.com.unisagrado.appqueimaduras.utils.AppUtils;
 
 public class QuizActivity extends AppCompatActivity {
 
@@ -44,6 +46,9 @@ public class QuizActivity extends AppCompatActivity {
         CardView cardOpcao2 = findViewById(R.id.cardOpcao2);
         CardView cardOpcao3 = findViewById(R.id.cardOpcao3);
         CardView cardOpcao4 = findViewById(R.id.cardOpcao4);
+
+        ImageView imgHome = findViewById(R.id.imgHome);
+        imgHome.setOnClickListener(AppUtils::abrirHome);
 
         cardList = new ArrayList<>(Arrays.asList(cardOpcao1, cardOpcao2, cardOpcao3, cardOpcao4));
 

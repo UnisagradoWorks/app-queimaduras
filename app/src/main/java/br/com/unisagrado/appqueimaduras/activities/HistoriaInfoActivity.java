@@ -12,6 +12,7 @@ import java.util.List;
 
 import br.com.unisagrado.appqueimaduras.R;
 import br.com.unisagrado.appqueimaduras.service.HistoriaService;
+import br.com.unisagrado.appqueimaduras.utils.AppUtils;
 
 public class HistoriaInfoActivity extends AppCompatActivity {
 
@@ -30,7 +31,7 @@ public class HistoriaInfoActivity extends AppCompatActivity {
         ImageView imgHome = findViewById(R.id.imgHome2);
         TextView txtTituloHistoria = findViewById(R.id.txtTituloHist);
 
-        imgHome.setOnClickListener(this::abrirHome);
+        imgHome.setOnClickListener(AppUtils::abrirHome);
         txtHistoria = findViewById(R.id.txtHistoria);
         setaEsq = findViewById(R.id.seta_esq);
         setaDir = findViewById(R.id.seta_dir);
@@ -61,7 +62,7 @@ public class HistoriaInfoActivity extends AppCompatActivity {
                 atualizarPagina();
                 break;
             case HistoriasActivity.PREVENCOES:
-                txtTituloHistoria.setText("PREVENCOES");
+                txtTituloHistoria.setText("PREVENCÕES");
                 historia = historiaService.findHistoriaPrevencao();
                 atualizarPagina();
                 break;
@@ -93,10 +94,5 @@ public class HistoriaInfoActivity extends AppCompatActivity {
                 setaDir.setClickable(true);
             }
         }
-    }
-
-    public void abrirHome(View view) {
-        Intent intent = new Intent(this, MainActivity.class);
-        startActivity(intent);
     }
 }

@@ -9,6 +9,7 @@ import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
 
 import br.com.unisagrado.appqueimaduras.R;
+import br.com.unisagrado.appqueimaduras.utils.AppUtils;
 
 public class InstituicaoActivity extends AppCompatActivity {
 
@@ -33,12 +34,7 @@ public class InstituicaoActivity extends AppCompatActivity {
         linkedInElvio.setOnClickListener(this::abrirUrl);
 
         ImageView menuPrincipal = findViewById(R.id.home);
-        menuPrincipal.setOnClickListener(this::abrirMenuPrincipal);
-    }
-
-    private void abrirMenuPrincipal(View view) {
-        Intent intent = new Intent(this, MainActivity.class);
-        startActivity(intent);
+        menuPrincipal.setOnClickListener(AppUtils::abrirHome);
     }
 
     private void abrirUrl(View view) {

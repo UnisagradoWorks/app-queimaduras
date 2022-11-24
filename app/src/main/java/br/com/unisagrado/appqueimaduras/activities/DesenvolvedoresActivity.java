@@ -8,6 +8,7 @@ import android.widget.ImageView;
 import androidx.appcompat.app.AppCompatActivity;
 
 import br.com.unisagrado.appqueimaduras.R;
+import br.com.unisagrado.appqueimaduras.utils.AppUtils;
 
 public class DesenvolvedoresActivity extends AppCompatActivity {
 
@@ -38,12 +39,7 @@ public class DesenvolvedoresActivity extends AppCompatActivity {
         marcos.setOnClickListener(this::abrirUrl);
 
         ImageView menuPrincipal = findViewById(R.id.home);
-        menuPrincipal.setOnClickListener(this::abrirMenuPrincipal);
-    }
-
-    private void abrirMenuPrincipal(View view) {
-        Intent intent = new Intent(this, MainActivity.class);
-        startActivity(intent);
+        menuPrincipal.setOnClickListener(AppUtils::abrirHome);
     }
 
     private void abrirUrl(View view) {

@@ -9,6 +9,7 @@ import android.widget.ImageView;
 import androidx.appcompat.app.AppCompatActivity;
 
 import br.com.unisagrado.appqueimaduras.R;
+import br.com.unisagrado.appqueimaduras.utils.AppUtils;
 
 public class ReferenciasActivity extends AppCompatActivity {
 
@@ -31,12 +32,7 @@ public class ReferenciasActivity extends AppCompatActivity {
         referencia2.setOnClickListener(this::abrirUrl);
         referencia3.setOnClickListener(this::abrirUrl);
         referencia4.setOnClickListener(this::abrirUrl);
-        menuPrincipal.setOnClickListener(this::abrirMenuPrincipal);
-    }
-
-    private void abrirMenuPrincipal(View view) {
-        Intent intent = new Intent(this, MainActivity.class);
-        startActivity(intent);
+        menuPrincipal.setOnClickListener(AppUtils::abrirHome);
     }
 
     private void abrirUrl(View view) {
