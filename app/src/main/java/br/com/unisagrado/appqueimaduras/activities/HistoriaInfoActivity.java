@@ -1,5 +1,6 @@
 package br.com.unisagrado.appqueimaduras.activities;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -23,6 +24,7 @@ public class HistoriaInfoActivity extends AppCompatActivity {
     private int pagina = 1;
     private List<String> historia;
 
+    @SuppressLint("SetTextI18n")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -62,7 +64,7 @@ public class HistoriaInfoActivity extends AppCompatActivity {
                 atualizarPagina();
                 break;
             case HistoriasActivity.PREVENCOES:
-                txtTituloHistoria.setText("PREVENCÕES");
+                txtTituloHistoria.setText("PREVENÇÕES");
                 historia = historiaService.findHistoriaPrevencao();
                 atualizarPagina();
                 break;
