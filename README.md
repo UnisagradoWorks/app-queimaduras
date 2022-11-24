@@ -18,7 +18,7 @@ width="200" hspace="20" vspace="10">](/readme/3.png)
 📥 Para baixar o projeto, basta executar o seguinte comando:
 
 ```bash
- git clone [mudar o nome do rep para o nome do app]
+ git clone https://github.com/UnisagradoWorks/app-queimaduras
 ```
 
 ✅ Para executar o projeto basta abri-lo no seu editor de preferência (recomendamos Android Studio)
