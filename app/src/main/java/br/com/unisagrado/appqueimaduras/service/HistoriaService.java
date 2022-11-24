@@ -16,7 +16,7 @@ public class HistoriaService {
 
         historia.add("O agente causador do tipo físico é UM dos que vamos conhecer hoje! Ele é " +
                 "classificado em três etapas: temperatura, eletricidade e radiação. " +
-                "Alguns exemplos de queimadura por: \n" +
+                "Alguns exemplos de queimadura: \n" +
                 "\t• Temperatura: vapor, objetos aquecidos, água quente, fogos de artifícios, frio. \n" +
                 "\t• Eletricidade: corrente elétrica, raio.\n" +
                 "\t• Radiação: sol, aparelhos de raios X, raios ultra-violetas, nucleares.");
