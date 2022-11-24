@@ -10,9 +10,9 @@ O projeto tem como função... [descricao do app]
 ```bash
  git clone [mudar o nome do rep para o nome do app]
 ```
-```
+
 ✅ Para executar o projeto basta abri-lo no seu editor de preferência (recomendamos Android Studio)
-```
+
 
 ## 💻 Desenvolvedores:
 
