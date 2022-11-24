@@ -12,6 +12,7 @@ O projeto tem como função... [descricao do app]
 ```
 ```
 ✅ Para executar o projeto basta abri-lo no seu editor de preferência (recomendamos Android Studio)
+```
 
 ## 💻 Desenvolvedores:
 
