@@ -16,9 +16,9 @@ O projeto tem como função... [descricao do app]
 
 ## 💻 Desenvolvedores:
 
-- [@LipeGabriell](https://github.com/LipeGabriell)
-- [@jescacelestino](https://github.com/jescacelestino)
-- [@mariferndes](https://github.com/mariferndes)
-- [@pauloferrarez](https://github.com/pauloferrarez)
-- [@BuenoBueno](https://github.com/BuenoBueno)
+- [@Felipe Gabriel](https://github.com/LipeGabriell)
+- [@Jéssica Celestino](https://github.com/jescacelestino)
+- [@Mariana Fernandes](https://github.com/mariferndes)
+- [@Paulo Ferrarez](https://github.com/pauloferrarez)
+- [@Vinicius Bueno](https://github.com/BuenoBueno)
 - [@Marcos Rangel](https://www.linkedin.com/in/mv-rangel)
