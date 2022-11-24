@@ -5,8 +5,8 @@ import java.util.List;
 
 public class Quiz implements Serializable {
 
-    private String pergunta;
-    private List<Alternativa> alternativas;
+    private final String pergunta;
+    private final List<Alternativa> alternativas;
 
     public Quiz(String pergunta, List<Alternativa> alternativas){
         this.pergunta = pergunta;
@@ -17,15 +17,7 @@ public class Quiz implements Serializable {
         return pergunta;
     }
 
-    public void setPergunta(String pergunta) {
-        this.pergunta = pergunta;
-    }
-
     public List<Alternativa> getAlternativas() {
         return alternativas;
-    }
-
-    public void setAlternativas(List<Alternativa> alternativas) {
-        this.alternativas = alternativas;
     }
 }

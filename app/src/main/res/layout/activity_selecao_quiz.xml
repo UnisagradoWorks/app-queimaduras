@@ -7,50 +7,51 @@
     tools:context=".activities.SelecaoQuizActivity">
 
     <ImageView
-        android:id="@+id/cardAgentes"
+        android:id="@+id/imgAgentes"
         android:layout_width="wrap_content"
         android:layout_height="200dp"
         android:layout_marginTop="30dp"
         android:adjustViewBounds="true"
-        app:layout_constraintStart_toStartOf="@+id/imageView8"
+        app:layout_constraintEnd_toStartOf="@+id/imgGraus"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView8"
         app:srcCompat="@drawable/rodinha_agentes"
         tools:ignore="ContentDescription" />
 
     <ImageView
-        android:id="@+id/cardGraus"
+        android:id="@+id/imgGraus"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
         android:adjustViewBounds="true"
-        app:layout_constraintBottom_toBottomOf="@+id/cardAgentes"
-        app:layout_constraintEnd_toEndOf="@+id/textView9"
-        app:layout_constraintTop_toTopOf="@+id/cardAgentes"
+        app:layout_constraintBottom_toBottomOf="@+id/imgAgentes"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imgAgentes"
+        app:layout_constraintTop_toTopOf="@+id/imgAgentes"
         app:srcCompat="@drawable/rodinha_graus"
         tools:ignore="ContentDescription" />
 
     <ImageView
-        android:id="@+id/cardPrevencoes"
+        android:id="@+id/imgPrevencoes"
         android:layout_width="wrap_content"
         android:layout_height="200dp"
         android:layout_marginTop="20dp"
         android:adjustViewBounds="true"
-        app:layout_constraintEnd_toEndOf="@+id/cardAgentes"
+        app:layout_constraintEnd_toEndOf="@+id/imgAgentes"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/cardAgentes"
-        app:layout_constraintTop_toBottomOf="@+id/cardAgentes"
+        app:layout_constraintStart_toStartOf="@+id/imgAgentes"
+        app:layout_constraintTop_toBottomOf="@+id/imgAgentes"
         app:srcCompat="@drawable/rodinha_prevencoes"
         tools:ignore="ContentDescription" />
 
     <ImageView
-        android:id="@+id/cardSocorros"
+        android:id="@+id/imgSocorros"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
-        android:layout_marginEnd="22dp"
         android:adjustViewBounds="true"
-        app:layout_constraintBottom_toBottomOf="@+id/cardPrevencoes"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="@+id/cardGraus"
-        app:layout_constraintTop_toTopOf="@+id/cardPrevencoes"
+        app:layout_constraintBottom_toBottomOf="@+id/imgPrevencoes"
+        app:layout_constraintEnd_toEndOf="@+id/imgGraus"
+        app:layout_constraintStart_toStartOf="@+id/imgGraus"
+        app:layout_constraintTop_toTopOf="@+id/imgPrevencoes"
         app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/rodinha_socorros"
         tools:ignore="ContentDescription" />

@@ -4,8 +4,8 @@ import java.io.Serializable;
 
 public class Alternativa implements Serializable {
 
-    private String texto;
-    private boolean correto;
+    private final String texto;
+    private final boolean correto;
 
     public Alternativa(String texto, boolean correto) {
         this.texto = texto;
@@ -16,15 +16,7 @@ public class Alternativa implements Serializable {
         return texto;
     }
 
-    public void setTexto(String texto) {
-        this.texto = texto;
-    }
-
     public boolean isCorreto() {
         return correto;
-    }
-
-    public void setCorreto(boolean correto) {
-        this.correto = correto;
     }
 }

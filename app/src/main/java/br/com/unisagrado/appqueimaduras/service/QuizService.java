@@ -47,12 +47,33 @@ public class QuizService {
     public List<Quiz> findQuizGraus() {
         List<Quiz> quizzes = new ArrayList<>();
 
-        quizzes.add(new Quiz("",
+        quizzes.add(new Quiz("A queimadura é um problema sério para a nossa pele e pode chegar em vários graus. Quais são eles?",
                 new ArrayList<>(Arrays.asList(
                         new Alternativa("", false),
                         new Alternativa("", false),
                         new Alternativa("", false),
                         new Alternativa("", false)
+                ))));
+        quizzes.add(new Quiz("O primeiro grau de queimadura descama em quanto tempo?",
+                new ArrayList<>(Arrays.asList(
+                        new Alternativa("", false),
+                        new Alternativa("", false),
+                        new Alternativa("", false),
+                        new Alternativa("", false)
+                ))));
+        quizzes.add(new Quiz("No segundo grau de queimadura as lesões ocorrem de 7 a 21 dias. Quais são as partes que esse grau atinge?",
+                new ArrayList<>(Arrays.asList(
+                        new Alternativa("", false),
+                        new Alternativa("", false),
+                        new Alternativa("", false),
+                        new Alternativa("", false)
+                ))));
+        quizzes.add(new Quiz("O 3º graus é o mais perigoso. Escolha uma alternativa que justifique essa afirmação.",
+                new ArrayList<>(Arrays.asList(
+                        new Alternativa("É o mais perigoso porque não é possível reepitelizar e necessita de enxerto na pele.", true),
+                        new Alternativa("É o mais perigoso porque demora de 7 a 21 dias para cicatrizar.", false),
+                        new Alternativa("É o mais perigoso porque atinge somente a derme.", false),
+                        new Alternativa("É o mais perigoso porque forma bolhas brancas.", false)
                 ))));
 
         return quizzes;
@@ -68,6 +89,27 @@ public class QuizService {
                         new Alternativa("", false),
                         new Alternativa("", false)
                 ))));
+        quizzes.add(new Quiz("",
+                new ArrayList<>(Arrays.asList(
+                        new Alternativa("", false),
+                        new Alternativa("", false),
+                        new Alternativa("", false),
+                        new Alternativa("", false)
+                ))));
+        quizzes.add(new Quiz("",
+                new ArrayList<>(Arrays.asList(
+                        new Alternativa("", false),
+                        new Alternativa("", false),
+                        new Alternativa("", false),
+                        new Alternativa("", false)
+                ))));
+        quizzes.add(new Quiz("",
+                new ArrayList<>(Arrays.asList(
+                        new Alternativa("", false),
+                        new Alternativa("", false),
+                        new Alternativa("", false),
+                        new Alternativa("", false)
+                ))));
 
         return quizzes;
     }
@@ -75,6 +117,27 @@ public class QuizService {
     public List<Quiz> findQuizSocorros() {
         List<Quiz> quizzes = new ArrayList<>();
 
+        quizzes.add(new Quiz("",
+                new ArrayList<>(Arrays.asList(
+                        new Alternativa("", false),
+                        new Alternativa("", false),
+                        new Alternativa("", false),
+                        new Alternativa("", false)
+                ))));
+        quizzes.add(new Quiz("",
+                new ArrayList<>(Arrays.asList(
+                        new Alternativa("", false),
+                        new Alternativa("", false),
+                        new Alternativa("", false),
+                        new Alternativa("", false)
+                ))));
+        quizzes.add(new Quiz("",
+                new ArrayList<>(Arrays.asList(
+                        new Alternativa("", false),
+                        new Alternativa("", false),
+                        new Alternativa("", false),
+                        new Alternativa("", false)
+                ))));
         quizzes.add(new Quiz("",
                 new ArrayList<>(Arrays.asList(
                         new Alternativa("", false),
