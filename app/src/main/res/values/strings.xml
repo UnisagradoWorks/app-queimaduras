@@ -15,10 +15,10 @@
     <string name="biomedicina"><b>Biomedicina</b></string>
     <string name="referencias">referencias</string>
     <string name="descricaoReferencia" />
-    <string name="felipe_n_gabriel">Felipe \n Gabriel</string>
-    <string name="jessica">Jéssica Celestino</string>
-    <string name="marianaFernandes">Mariana \n Fernandes</string>
-    <string name="viniciusBueno">Vinicius c Bueno</string>
+    <string name="felipe_n_gabriel">Felipe \nGabriel</string>
+    <string name="jessica">Jéssica \nCelestino</string>
+    <string name="marianaFernandes">Mariana \nFernandes</string>
+    <string name="viniciusBueno">Vinicius \nBueno</string>
     <string name="pauloCesar">Paulo \nCésar</string>
     <string name="marcosRangel">Marcos \n Rangel</string>
     <string name="elvioGilberto">Prof. Dr. Elvio Gilberto da Silva</string>
