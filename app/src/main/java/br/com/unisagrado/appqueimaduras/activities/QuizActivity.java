@@ -100,7 +100,11 @@ public class QuizActivity extends AppCompatActivity {
     public void atualizarPagina(){
 
         if (pagina > quizList.size()){
-            pagina--;
+            Snackbar snackbar = Snackbar.make(findViewById(R.id.constraintLayout),
+                    "Parabéns! Retornando ao Menu...",
+                    Snackbar.LENGTH_SHORT);
+            snackbar.show();
+            handler.postDelayed(() -> abrirMenuQuiz(this.getCurrentFocus()), 1500);
             return;
         }
 
