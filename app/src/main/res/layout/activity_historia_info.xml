@@ -92,7 +92,7 @@
                                 android:fontFamily="@font/poppins"
                                 android:lineSpacingExtra="3sp"
                                 android:text="Conteúdo História"
-                                android:textAlignment="center"
+                                android:textAlignment="textStart"
                                 android:textColor="@color/default_blue"
                                 android:textSize="16sp"
                                 android:textStyle="bold" />
