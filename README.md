@@ -2,7 +2,7 @@
 
 ## 📝 Sobre:
 
-O projeto tem como função... [descricao do app]
+SOSKids é um aplicativo para crianças para ensinar e conscientizar sobre os riscos de queimaduras e os cuidados necessários. Possui algumas informações que serão ensinadas de forma didática e simples para que o assunto seja mais fácil de ser compreendido pelas crianças. Existem diferentes temas que serão contados através das histórias e após a leitura, é possível escolher um quiz com 4 perguntas relacionadas as histórias para melhor compreensão e fixação.
 
 ## Screenshots
 
