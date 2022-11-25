@@ -8,82 +8,59 @@ public class HistoriaService {
     public List<String> findHistoriaAgente() {
         List<String> historia = new ArrayList<>();
 
-        historia.add("\tAs queimaduras são um importante problema de saúde pública, " +
-                "pois além dos problemas físicos, elas ocasionam danos psicológicos e sociais. " +
-                "Queimaduras são lesões decorrentes de agentes, tais como a energia térmica, química ou elétrica, " +
-                "(ou ainda biológicos) capazes de produzir calor excessivo que danifica os " +
-                "tecidos corporais e causa a morte celular.");
-
-        historia.add("\tO agente causador do tipo físico é UM dos que vamos conhecer hoje! Ele é " +
-                "classificado em três etapas: temperatura, eletricidade e radiação. " +
-                "Alguns exemplos de queimadura: \n" +
-                "\t• Temperatura: vapor, objetos aquecidos, água quente, fogos de artifícios, frio. \n" +
-                "\t• Eletricidade: corrente elétrica, raio.\n" +
-                "\t• Radiação: sol, aparelhos de raios X, raios ultra-violetas, nucleares.");
-        historia.add("\tOutro tipo de agente causador é o químico. É possível reconhecer esse tipo " +
-                "de queimadura quando se tem contato com produtos químicos como por exemplo: " +
-                " ácidos, bases, álcool, gasolina.\n\t" +
-                "É importante tomar muito cuidado ao ter contato com algum " +
-                "desses produtos! Fique atento.\n");
-        historia.add("\tO tipo de queimadura biológico é causado por seres vivos! " +
-                "Alguns animais que podem te machucar caso você não esteja atento é a " +
-                "água-viva, ou até mesmo uma lagarta-de-fogo, conhecida como taturana. \n\t" +
-                "Já nos vegetais é possível ser queimado pelo látex de certas plantas.");
+        historia.add("As queimaduras são consideradas, um importante problema de saúde pública, pois, além dos problemas físicos, capazes de levar o paciente a óbito, elas ocasionam danos de ordem psicológica e social. \n" +
+                    "Queimaduras são lesões decorrentes de agentes químicos, elétricos, biológicos e de energia térmica capazes de produzir calor excessivo que danifica os tecidos corporais e acarreta a morte celular.\n");
+        historia.add("O agente causador do tipo físico é um dos que vamos conhecer hoje. Ele é classificado em três etapas: temperatura, eletricidade e radiação.\n" +
+                "Alguns exemplos de queimaduras:\n" +
+                "\n" +
+                "• Temperatura: vapor, objetos aquecidos, água quente, fogos de artifícios, frio;\n" +
+                "\n" +
+                "• Eletricidade: corrente elétrica, raio;\n" +
+                "\n" +
+                "• Radiação: sol, aparelhos de raios X, raios ultra-violetas, nucleares.\n" +
+                "\n" +
+                "Outro tipo de agente causador é o químico. É possível reconhecer esse tipo de queimadura quando se tem contato com produtos químicos como ácidos, bases, álcool, gasolina.\n");
+        historia.add("É importante tomar muito cuidado ao ter contato com algum desses produtos, fique atento.\n" +
+                "\n" +
+                "O tipo de queimadura biológica é causado por seres vivos. Alguns animais que podem te machucar caso você não esteja atento são a água-viva e a lagarta-de-fogo, conhecida como taturana. \n" +
+                "\n" +
+                "Já nos vegetais é possível ser queimado pelo o látex de certas plantas.\n");
         return historia;
     }
 
     public List<String> findHistoriaGraus() {
-        List<String> historia = new ArrayList<>();
+        List<String> graus = new ArrayList<>();
 
-        historia.add("\tO que vai influenciar na gravidade do ferimento é a profundidade da " +
-                "queimadura, ou seja, o número de camadas da pele ou outras estruturas " +
-                "abaixo da pele, que foram atingidos. \n\tO processo de reparação " +
-                "tecidual do queimado dependerá de vários fatores, entre eles a " +
-                "profundidade da lesão. \n\tA queimadura também afeta o sistema " +
-                "imunológico da vítima, com consequências " +
-                "sobre o quadro clínico geral do paciente.");
-        historia.add("\tO primeiro grau consiste em uma queimadura na superfície da pele.\n\t" +
-                "Afeta somente a epiderme e não forma bolhas. \n\t" +
-                "Quando atingido, apresenta vermelhidão, dor, endema e descama de 4 a 6 dias.");
-        historia.add("\tJá no segundo grau, atinge a pele de uma forma um pouco mais profunda.\n" +
-                "Atinge a epiderme e uma parte da derme, causando bolhas. \nSe for uma queimadura " +
-                "mais superficial, a base da bolha é rósea, caso seja mais profunda, a " +
-                "base da bolha é branca! \n" +
+        graus.add("O que vai influenciar na gravidade do ferimento é a profundidade da queimadura, ou seja, o número de camadas da pele ou outras estruturas abaixo da pele, que foram atingidos. O processo de reparação tecidual do queimado dependerá de vários fatores, entre eles a profundidade da lesão. " +
+                "A queimadura também afeta o sistema imunológico com consequências sobre o quadro clínico geral do paciente.");
+        graus.add("O primeiro grau consiste em uma queimadura na superfície da pele." +
+                "Afeta somente a epiderme e não forma bolhas." +
+                "Quando atingido, apresenta vermelhidão, dor, edema e descamação de 4 a 6 dias.");
+        graus.add("Já no segundo grau, a queimadura atinge a pele de uma forma um pouco mais profunda. Atinge a epiderme e uma parte da derme, causando bolhas. Se for uma queimadura mais superficial, a base da bolha é rósea, caso seja mais profunda, a base da bolha é branca.\n" +
                 "A restauração das lesões ocorrem de 7 a 21 dias.");
-        historia.add("\tO terceiro e último grau, é o tipo de queimadura mais profunda.\n" +
-                "Atinge a espessura total da pele, não é possível cicatrizar e necessita " +
-                "de enxerto na pele. \n" +
-                "Afeta a epiderme, a derme, estruturas profundas da pele e é " +
-                "indolor na área da queimadura pois danifica os nervos.");
+        graus.add("O terceiro e último grau, é o tipo de queimadura mais profunda. Atinge a espessura total da pele e não é possível reepitelizar e necessita de enxerto na pele.\n" +
+                "Afeta a epiderme, a derme, estruturas profundas da pele e é indolor.");
 
-        return historia;
+        return graus;
     }
 
     public List<String> findHistoriaPrevencao() {
         List<String> prevencao = new ArrayList<>();
 
-        prevencao.add("\tInfelizmente, acidentes podem acontecer em qualquer idade, " +
-                "mas as crianças são sempre mais vulneráveis. \nAs crianças são ainda " +
-                "as mais afetadas, sendo as queimaduras a quarta causa de internação " +
-                "por sequelas gravíssimas entre 5 e 9 anos, segundo o Ministério da Saúde.");
-        prevencao.add("\tQuando esses acidentes acontecem, causam danos muitas vezes irreparáveis," +
-                " prejudicam seu desenvolvimento intelectual, coordenação motora e " +
-                "desfiguram sua aparência. \nO que interfere na vida social e escolar," +
-                " sem falar em toda a dor e sofrimento, só pode ser compreendido por " +
-                "quem fica com as consequências.\n");
-        prevencao.add("\tA Organização Mundial da Saúde (OMS) revelou que 320.000 crianças morrem" +
-                " todos os anos pelas mesmas causas. Por isso, pequenos cuidados são importantes" +
-                " para salvar vidas. Temos alguns exemplos como: \n\t" +
-                "-Mantenha as crianças fora da cozinha enquanto cozinhamos.\n\t" +
-                "-Fósforos e isqueiros devem ser mantidos longe das crianças.\n\t" +
-                "-Sempre tente educar e educar as crianças sobre os perigos das queimaduras.");
-        prevencao.add("\tAlém de outras situações comuns que todos nós encontramos:\n\t" +
-                "Nunca acenda uma churrasqueira com álcool, principalmente líquidos.\n\t" +
-                "Tenha cuidado ao deixar o telefone na tomada por longos" +
-                " períodos de tempo para carregar, pois isso pode causar choque" +
-                " elétrico e pequenos incêndios. \nO protetor solar deve ser usado diariamente.\n\t" +
-                " Isso funciona para todos: crianças e adultos, porque não protege" +
-                " apenas contra a exposição ao sol.");
+        prevencao.add("Infelizmente, acidentes podem acontecer em qualquer idade, mas crianças são ainda as mais afetadas, sendo as queimaduras, a quarta causa de internação por sequelas gravíssimas entre 5 e 9 anos (BRASIL, 2012).");
+        prevencao.add("Quando esses acidentes acontecem, causam danos, muitas vezes irreparáveis, prejudicam seu desenvolvimento intelectual, coordenação motora e causam danos a sua aparência. O que interfere na vida social e escolar gerando dor e sofrimento.");
+        prevencao.add("A Organização Mundial da Saúde (OMS) revelou que 320.000 crianças morrem todos os anos pelas mesmas causas. Por isso, alguns cuidados importantes para salvar vidas são:\n" +
+                "\n" +
+                "• Manter as crianças fora da cozinha enquanto cozinha;\n" +
+                "• Fósforos e isqueiro devem ser mantidos longe das crianças;\n" +
+                "• Sempre oriente as crianças sobre os perigos das queimaduras.\n");
+        prevencao.add("Outras situações comuns são:\n" +
+                "\n" +
+                "• Nunca acenda uma churrasqueira com álcool ou líquidos inflamáveis;\n" +
+                "\n" +
+                "• Tenha cuidado ao deixar o telefone na tomada em superfícies que esquentam por longos períodos para carregar, pois isso pode causar choque elétrico e pequenos incêndios;\n" +
+                "\n" +
+                "Além disso, o protetor solar deve ser usado por todos diariamente.\n");
 
         return prevencao;
     }
@@ -91,29 +68,32 @@ public class HistoriaService {
     public List<String> findHistoriaSocorro() {
         List<String> socorro = new ArrayList<>();
 
-        socorro.add("\tEmbora existam meios de prevenção á queimaduras, elas infelizmente ocorrem " +
-                "com certa frequência, sendo cerca de 224 mil casos de acidentes por queimadura " +
-                "no Brasil por ano, sendo 40% em crianças e 80% em locais domésticos.");
-        socorro.add("\tNo caso de crianças, elas devem alertar um adulto responsável e, portanto, " +
-                "precisam ser instruídas com antecedência. \n\tFeito isso, a melhor escolha será " +
-                "tomada para o tratamento da queimadura. \n\tAs queimaduras de primeiro grau devem " +
-                "ser lavadas com água corrente, sabonete neutro ou de glicerina e, em seguida, " +
-                "aplicar filtro solar FPS 30 ou maior e um hidratante de pH neutro; " +
-                "curativos não são necessários.");
-        socorro.add("\tQueimaduras de segundo grau precisam ser limpas, ter aplicada sobre toda " +
-                "sua área creme sulfadiazina de prata e não ser exposta a sujeira ou umidade, " +
-                "aplicar protetor solar e hidratante neutro; curativos são necessários. \n\t" +
-                "Por fim, as queimaduras de terceiro grau devem ser tratadas em hospitais com o " +
-                "auxílio de profissionais da saúde.");
-        socorro.add("\tAlém disso, após o tratamento, podemos acelerar o processo de cicatrização " +
-                "das feridas por outros meios, sendo um deles a dieta. \n\tPara começar, podemos " +
-                "comer alimentos que auxiliam na cicatrização das feridas como verduras de " +
-                "coloração escura, leguminosas, frutas, vegetais, castanhas, nozes e carne magra. \n\t" +
-                "Outros cuidados, como refazer os curativos umedecidos e sempre manter a ferida " +
-                "longe de poeira e outros agentes físicos ou químicos que possam agravar a " +
-                "situação não podem ser dispensados.\n\t Evitar temperaturas extremas, " +
-                "tocar ou coçar a ferida.\n\t Não é recomendado estourar as bolhas, mas sim utilizar " +
-                "as pomadas corretas com orientação médica.");
+        socorro.add("Embora existam meios de prevenção à queimaduras, elas infelizmente ocorrem com certa frequência, sendo cerca de 224 mil casos de acidentes por queimadura no Brasil por ano, sendo 40% em crianças e 80% em locais domésticos.");
+        socorro.add("No caso de crianças, elas devem alertar um adulto responsável e, portanto, precisam ser instruídas com antecedência. Feito isso, a melhor escolha será tomada para o tratamento da queimadura.");
+        socorro.add("Para tratar queimaduras de primeiro grau:\n" +
+                "• Interrompa o processo de queimadura;\n" +
+                "• Remova roupas, joias, anéis, piercings e próteses;\n" +
+                "• Lave com água corrente com sabonete neutro ou de glicerina \n" +
+                "• Aplique filtro solar FPS 30 ou maior e um hidratante de pH neutro.\n" +
+                "\n" +
+                "Curativos não são necessários.");
+        socorro.add("Queimaduras de segundo grau:\n" +
+                "•  Interrompa o processo de queimadura;\n" +
+                "• Remova roupas, joias, anéis, piercings e próteses;\n" +
+                "• Lave com água corrente;\n" +
+                "• Não exponha a queimadura a sujeira ou umidade\n" +
+                "• Aplique filtro solar  FPS 30 ou maior e um hidratante de pH neutro após a cicatrização;\n" +
+                "• Procure um médico para a drenagem das bolhas.\n" +
+                "\n" +
+                "Curativos são necessários.");
+        socorro.add("Queimaduras de terceiro grau:\n" +
+                "• Devem ser tratadas em hospitais com o auxílio de profissionais da saúde.\n");
+        socorro.add("Além disso, após o tratamento, podemos acelerar o processo de cicatrização das feridas por outros meios. Nesse sentido, podemos comer alimentos que auxiliam na cicatrização das feridas como verduras de coloração escura, leguminosas, frutas, vegetais, castanhas, nozes e carne magra. ");
+        socorro.add("Ademais, outros cuidados, como refazer os curativos umedecidos e sempre manter a ferida longe de poeira e outros agentes físicos ou químicos que possam agravar a situação não podem ser dispensados. \n" +
+                "• Evite temperaturas extremas;\n" +
+                "• Não toque ou coce a ferida;\n" +
+                "• Não estourar as bolhas;\n" +
+                "• Procure e siga as orientações médicas.\n");
         return socorro;
     }
 }
