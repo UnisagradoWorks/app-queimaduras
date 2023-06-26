@@ -27,7 +27,7 @@ width="200" hspace="20" vspace="10">](/readme/3.png)
 ## 💻 Desenvolvedores:
 
 - [@Felipe Gabriel](https://github.com/LipeGabriell)
-- [@Jéssica Celestino](https://github.com/jescacelestino)
+- [@Jéssica Celestino](https://github.com/jessicacelestino)
 - [@Marcos Rangel](https://www.linkedin.com/in/mv-rangel)
 - [@Mariana Fernandes](https://github.com/mariferndes)
 - [@Paulo Ferrarez](https://github.com/pauloferrarez)

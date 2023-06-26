@@ -56,7 +56,7 @@ public class DesenvolvedoresActivity extends AppCompatActivity {
             String url = "https://github.com/LipeGabriell";
             intent.setData(android.net.Uri.parse(url));
         } else if (view.getId() == R.id.jessica){
-            String url = "https://github.com/jescacelestino";
+            String url = "https://github.com/jessicacelestino";
             intent.setData(android.net.Uri.parse(url));
         } else if (view.getId() == R.id.mariana){
             String url = "https://github.com/mariferndes";
