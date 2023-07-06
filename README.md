@@ -1,4 +1,4 @@
-# SOSKids
+#  SOSKids
 
 ## 📝 Sobre:
 
@@ -14,6 +14,11 @@ width="200" hspace="20" vspace="10">](/readme/2.png)
 width="200" hspace="20" vspace="10">](/readme/3.png)
 
 ## ⚙️ Instalação:
+
+[<img src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png" 
+alt="Download from Google Play" 
+height="80">](https://play.google.com/store/apps/details?id=br.com.unisagrado.appqueimaduras)
+
 
 📥 Para baixar o projeto, basta executar o seguinte comando:
 
